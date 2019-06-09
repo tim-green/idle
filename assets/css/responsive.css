@@ -1,0 +1,432 @@
+@media only screen and (max-width: 1366px){
+
+}
+/* Learge Layout: 1280px. */
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+	
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.header_area{
+		top: 30px;
+	}
+	.main_menu .menu_list li{
+		margin-right: 40px;
+	}
+	.main_menu .menu_list li a {
+	    font-size: 12px;
+	}
+	.idle_bg_text h1 {
+	    font-size: 60px;
+	    line-height: 60px;
+	}
+	.plan_text_area h2 {
+	    font-size: 32px;
+	}
+	.plan_info h4 {
+	    margin-bottom: 15px;
+	    font-size: 20px;
+	}
+	.intrest_app_area h2 {
+	    font-size: 32px;
+	}
+	.intrest_app_download .intrest_app_btn {
+	    padding: 10px 30px;
+	    padding-left: 60px;
+	}
+	.app_icon:before {
+	    left: 25px;
+	    top: 20px;
+	    font-size: 24px;
+	}
+	.testimonial_text h2 {
+	    font-size: 32px;
+	    line-height: 38px;
+	}
+	.testimonial_slide .slick-prev{
+	  	top: 73%;
+	}
+	.testimonial_slide .slick-next{
+	  	top: 73%;
+	}
+	.soft_intro_video_img img {
+	    width: 440px;
+	    height: 440px;
+	}
+	.soft_btn_group .soft_btn{
+		margin-right: 0;
+	}
+	/*comeingsoon.html css*/
+	.come_text_area h1{
+		font-size: 42px;
+		line-height: 40px;
+	}
+	.inner{
+		width: 70px;
+		height: 70px;
+		font-size: 10px;
+	}
+	.inner span.count{
+		font-size: 18px;
+		margin-bottom: 0px;
+		padding-top: 10px;
+	}
+}	
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.header_area{
+		top: 0;
+	}
+	.main_menu .menu_list li{
+		margin-right: 40px;
+	}
+	.main_menu .menu_list li a{
+		font-size: 14px;
+	}
+	.download_box{
+		display: none;
+	}
+	.idle_bg_text h1{
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.nav_menu{
+		display: none;
+	}
+	.idle_logo{
+		display: none;
+	}
+	.bg_left {
+	    display: none;
+	}
+	.pricing_tab{
+		float: none;
+		text-align: left;
+	}
+	.pricing_tab ul {
+	    right: 14px;
+	}
+	.price_button .price_btn{
+		padding: 20px 35px;
+	}
+	.work_line{
+		display: none;
+	}
+	.idle_bg_btn,
+	.plan_button,
+	.intrested_app_img,
+	.work_box,
+	.testimonial_text,
+	.blog_sigle_area,
+	.widget_area,
+	.blog_area,
+	.about_left,
+	.soft_intro_left,
+	.blog_area,
+	.blog_area_2,
+	.price_table_2{
+	    margin-bottom: 60px;
+	}
+	/*single_blog.html*/
+	.content_img {
+	    width: 100%;
+	    padding-right: 0px;
+	    padding-bottom: 30px;
+	}
+	.content_inner_text {
+	    width: 100%;
+	    float: left;
+	}
+	/*index-4.html*/
+	.feature_box_text{
+		margin-bottom: 60px;
+	}
+	.ab_margin_1,
+	.ab_margin_2,
+	.ab_margin_3{
+		margin: 0;
+	}
+	.ab_feature_box {
+		margin-bottom: 60px;
+	}
+	.idle_blog_2{
+		margin-bottom: 0px;
+	}
+	.blog_info_2{
+		position: relative;
+	    bottom: 0;
+	    width: 100%;
+	}
+	/*comeingsoon.html css*/
+	.come_text_area {
+		margin-top: 40px;
+	    text-align: center;
+	}
+	.counter-column{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.offer_timer{
+		text-align: center;
+	}
+}
+/* Mobile Layout: 360px. */
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	.lds-ellipsis {
+		left: 40%;
+	}
+	.idle_title h2 {
+	    font-size: 32px;
+	}
+	.menu_list li a span{
+		display: none;
+	}
+	.header_area{
+		top: 0;
+	}
+	.download_box{
+		display: none;
+	}
+	.nav_menu{
+		display: none;
+	}
+	.idle_logo{
+		display: none;
+	}
+	.bg_left {
+	    display: none;
+	}
+	.idle_bg_text h1 {
+	    font-size: 38px;
+	    line-height: 40px;
+	}
+	.idle_bg_btn {
+		text-align: center;
+	}
+	.idle_bg_btn .bg_btn {
+		display: block;
+	    padding: 15px 15px;
+	    text-align: center;
+	    margin-bottom: 20px;
+	}
+	.intrest_app_area h2 {
+	    font-size: 32px;
+	}
+	.intrest_app_btn.app_icon.android_icon {
+	    margin-bottom: 30px;
+	}
+	.pricing_tab{
+		float: none;
+		text-align: left;
+	}
+	.pricing_tab input{
+		width: 320px;
+		height: 70px;
+	}
+	.pricing_tab ul li a.pricing_tab_btn{
+		padding: 21px 45px;
+	}
+	.idle_app_trial .idle_bg_btn .bg_btn {
+		padding: 15px 35px;
+		display: block;
+		margin-bottom: 20px;
+	}
+	.work_line{
+		display: none;
+	}
+	.testimonial_single{
+		padding: 30px;
+	}
+	.feature_area{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.idle_bg_btn,
+	.plan_button,
+	.intrested_app_img,
+	.work_box,
+	.testimonial_text,
+	.blog_sigle_area,
+	.widget_area,
+	.about_left,
+	.soft_intro_left,
+	.blog_area,
+	.blog_area_2,
+	.price_table_2{
+	    margin-bottom: 60px;
+	}
+	/*blog.html*/
+	.breadcrumb_text h1 {
+	    font-size: 40px;
+	}
+	.widget_sidebar {
+	    margin: 40px auto 0 auto;
+	}
+	.bl_main_info {
+	    padding: 25px !important;
+	}
+	.bl_main_info.blog_details h2 {
+	    font-size: 18px;
+	}
+	.blog_play {
+	    top: 30%;
+	    left: 40%;
+	}
+	.blog_play .b_play {
+	    width: 60px;
+	    height: 60px;
+	    line-height: 60px;
+	}
+	.blog_text {
+	    margin-left: 0px;
+	}
+	.blog_icon {
+	    float: none;
+	    margin-top: 10px;
+	    margin-bottom: 20px;
+	}
+	.blog_text h2 {
+	    line-height: 28px;
+	}
+	.blog_text h2 a {
+	    font-size: 16px;
+	}
+	/*single_blog.html*/
+	.content_img {
+	    width: 100%;
+	    padding-right: 0px;
+	    padding-bottom: 30px;
+	}
+	.content_inner_text {
+	    width: 100%;
+	    float: left;
+	}
+	.admin_img{
+		left: 120px;
+	}
+	.comment_list_area .single_comment .comment_text {
+	    margin-left: 0px;
+	    margin-top: 40px;
+	}
+	.comment_list_area .single_comment .comment_img {
+	    float: none;
+	}
+	/*index-4.html*/
+	.idle_bg_4 .bg_4_button .active-btn{
+		display: block;
+	}
+	.feature_box_text{
+		margin-bottom: 60px;
+	}
+	.feature_box_text h2 {
+	    font-size: 34px;
+	}
+	.ab_margin_1,
+	.ab_margin_2,
+	.ab_margin_3{
+		margin: 0;
+	}
+	.ab_feature_box {
+		margin-bottom: 60px;
+		position: relative;
+	    padding: 20px 30px;
+	}
+	.ab_feature_info h3{
+		font-size: 26px;
+	}
+	.work_box_icon_2{
+		float: none;
+	}
+	.work_box_info_2{
+		margin-top: 20px;
+		margin-left: 0;
+	}
+	.work_box_info_2 h4 {
+	    margin-bottom: 15px;
+	}
+	.soft_intro_video_img img {
+	    width: 340px;
+	    height: 240px;
+	}
+	.play_icon_2 {
+	    top: 37%;
+	    left: 39%;
+	}
+	.play_icon_2 .play_button_2 {
+	    width: 70px;
+	    height: 70px;
+	    line-height: 60px;
+	}
+	.soft_btn_group .soft_btn{
+		display: block;
+		margin-bottom: 30px;
+	}
+	.idle_title_2 h2 {
+	    font-size: 44px;
+	}
+	.feed_review {
+	    padding: 20px 30px;
+	}
+	.idle_blog_2{
+		margin-bottom: 0px;
+	}
+	.blog_info_2{
+		position: relative;
+	    bottom: 0;
+	    width: 100%;
+	}
+	.idle_newsletter_title h2 {
+	    font-size: 26px;
+	}
+	.idle_newsletter_form form input{
+		height: 50px;
+	}
+	.idle_newsletter_form form button.newsletter_btn {
+	    width: 60px;
+	    height: 60px;
+	    line-height: 60px;
+	}
+	/*comeingsoon.html css*/
+	.come_text_area {
+		margin-top: 40px;
+	    text-align: center;
+	}
+	.come_text_area h1{
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.counter-column{
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-bottom: 40px;
+	}
+	.offer_timer{
+		text-align: center;
+	}
+	.inner{
+		width: 80px;
+		height: 80px;
+		font-size: 12px;
+	}
+	.inner span.count{
+		font-size: 20px;
+		padding-top: 10px;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 450px) and (max-width: 767px) {
+	.admin_img{
+		left: 170px;
+	}
+	.soft_intro_video_img img {
+	    width: 440px;
+	    height: 340px;
+	}
+	.play_icon_2 {
+	    top: 41%;
+	    left: 42%;
+	}
+	.soft_btn_group .soft_btn{
+		display: inline-block;
+	}
+}
