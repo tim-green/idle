@@ -21,11 +21,20 @@ module.exports = function(grunt){
         tasks: ['concat'],
       },
     },
-    
+    copy: {
+    main: {
+      files: [
+
+        // includes files within path and its sub-directories
+        {expand: true, src: ['assets/images/**','assets/fonts/**'], dest: 'build/'},  
+      ],
+    },
+  },
 //above this    
     });
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('default',['concat','watch']);
+    grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.registerTask('default',['concat','watch','copy']);
 }
