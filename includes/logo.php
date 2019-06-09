@@ -1,0 +1,1 @@
+<a href="#"><img src="assets/images/idle-logo.svg" class="img-fluid" alt=""></a>
