@@ -1,0 +1,2195 @@
+/*-------------------------------------
+Template Name: Bilo - Sass App Landing HTML Template 
+Template URI: 
+Description: Bilo - Sass App Landing HTML Template.
+Author: webtend
+Author URI: https://themeforest.net/user/webtend
+Version: 1.0
+---------------------------------------
+CSS INDEX
+---------------------------------------
+1.Default css
+2.preloader css
+3.header-area css
+4.idle_bg_1 section css
+5.idle_plan section css
+6.idle_intrested_app section css
+7.idle_featues_slide section css
+8.idle_video section css
+9.idle_pricing section css
+10.idle_works section css
+11.idle_app_trial section css
+12.idle_news_feed widget section css
+13.idle_widget section css
+14.idle_footer section css
+15.Blog.html css
+16.Single_Blog.html css
+17.Index.html css
+18.index-4.html css
+19.comeingsoon.html css
+---------------------------------------*/
+
+/*===================== 1. Satrt Default css  =====================*/
+@import url('https://fonts.googleapis.com/css?family=Nunito:700|Rubik:400,500,700,700i');
+
+a,
+a:hover,
+a:focus{
+	color: #170e2a;
+	text-decoration: none;
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Gilroy-ExtraBold.ttf';
+	margin: 0;
+	color: #170e2a;
+}
+h1{
+	font-size: 100px;
+}
+h2{
+	font-size: 50px;
+}
+h3{
+	font-size: 28px;
+}
+h4{
+	font-size: 24px;
+}
+h5{
+	font-size: 18px;
+}
+h6{
+	font-size: 16px;
+}
+p{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+button{
+	cursor: pointer;
+}
+body{
+	font-family: 'Rubik', sans-serif;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	color: #6870a0;
+	line-height: 26px;
+    overflow-x: hidden;
+}
+section{
+	overflow: hidden;
+}
+@font-face{
+	src: url(../fonts/Gilroy-ExtraBold.ttf);
+	font-family: 'Gilroy-ExtraBold.ttf';
+}
+@font-face{
+	font-family: 'Gilroy-Light.ttf';
+	src: url(../fonts/Gilroy-Light.ttf);
+}
+@font-face{
+	font-family: 'Gilroy-Bold.ttf';
+	src: url(../fonts/Gilroy-Bold.ttf);
+}
+@font-face{
+	font-family: 'Gilroy-Regular.ttf';
+	src: url(../fonts/Gilroy-Regular.ttf);
+}
+.section_padding{
+	padding: 120px 0;
+}
+.light_bg{
+	background: #fff7ee;
+}
+.idle_btn{
+	display: inline-block;
+	font-family: 'Gilroy-Bold.ttf';
+	font-weight: bold;
+	padding: 25px 56px;
+	font-size: 14px;
+	line-height: 1.667;
+	background: #ff9d60;
+	color: #fff;
+	border-radius: 50px;
+	transition: all .5s;
+}
+.idle_span span{
+	color: #ff9d60;
+	text-decoration: underline;
+	letter-spacing: 2px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.idle_title_span {
+	margin-bottom: 20px;
+}
+.idle_title_span span{
+	color: #ff9d60;
+	text-decoration: underline;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 14px;
+}
+.idle_title{
+	margin-bottom: 70px;
+}
+.idle_title h2{
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 70px;
+}
+.idle_btn{
+	display: inline-block;
+	font-family: 'Gilroy-Bold.ttf';
+	font-size: 14px;
+	color: #fff;
+}
+/*=============== End Default css =====================*/
+
+/*=============== 2. Start preloader css =====================*/
+.preloader{
+  background: #fff;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 11000;
+}
+.lds-ellipsis {
+  display: inline-block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 50%;
+  left: 47%;
+}
+.lds-ellipsis div {
+  position: absolute;
+  top: 27px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+	background: #6e40c2;
+  left: 6px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+	background: #5825b8;
+  left: 6px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+	background: #ff9d60;
+  left: 26px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+	background: #170e2a;
+  left: 45px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(19px, 0);
+  }
+}
+
+/*=============== End preloader css =====================*/
+
+/*=============== 3. Start header_area css =====================*/
+.header_area.sticky {
+	position: fixed;
+	top: 0;
+	background: #4919ae;
+	padding: 20px 20px;
+}
+.header_area.sticky .idle_logo img {
+    width: 80px;
+}
+.header_area.sticky .download_box .menu_btn {
+    padding: 15px 50px;
+}
+.header_area.sticky .nav_menu,
+.header_area.sticky .menu_icon_box{
+	padding-top: 15px;
+}
+.header_3.sticky .main_menu .menu_list li a{
+	color: #fff;
+}
+.header_3.sticky .menu_icon_box .idle_menu_icon{
+	color: #fff;
+}
+.header_area{
+	position: absolute;
+	top: 70px;
+	left: 0;
+	width: 100%;
+	z-index: 337;
+}
+.nav_menu{
+	position: relative;
+	float: left;
+	padding-top: 15px;
+}
+.main_menu .menu_list li{
+	position: relative;
+	display: inline-block;
+	margin-right: 55px;
+}
+.main_menu .menu_list li a{
+	display: block;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: all .3s;
+}
+.main_menu .menu_list li a .caret i {
+    font-size: 16px;
+    margin-left: 5px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.main_menu li:hover .caret i{
+    transform: rotate(-180deg);
+}
+/* header_3 menu */
+.header_3 .main_menu .menu_list li a{
+	color: #170e2a;
+}
+.header_3 .menu_icon_box .idle_menu_icon{
+	color: #170e2a;
+}
+/*  start Sub-menu*/
+/* submenu */
+.main_menu .menu_list li ul.sub-menu{
+	position: absolute;
+    width: 210px;
+    text-align: left;
+    background: #FAFAFA;
+    z-index: 11;
+    top: 150%;
+    left: 0px;
+    border-top: 3px solid #ff9d60;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+.main_menu .menu_list li:hover > ul.sub-menu{
+	top: 120%;
+	visibility: visible;
+	opacity: 1;
+	transition: all .2s;
+}
+.main_menu .menu_list li ul.sub-menu li{
+	display: block;
+	margin: 0;
+	border-bottom: 1px solid #7343c5;
+}
+.main_menu .menu_list li ul.sub-menu li:last-child{
+	border-bottom: none;
+}
+.main_menu .menu_list li ul.sub-menu li a{
+	font-size: 13px;
+	color: #7343c5;
+    padding: 15px 20px;
+}
+.main_menu .menu_list li ul.sub-menu li:hover > a{
+	background: #7343c5;
+	color: #fff;
+}
+.main_menu .menu_list li ul.sub-menu li ul.sub-menu{
+	left: 100%;
+	top: 0;
+	opacity: 0;
+	visibility:hidden;
+	transition: all .5s;
+}
+.main_menu .menu_list li ul.sub-menu li:hover ul.sub-menu{
+	visibility: visible;
+	opacity: 1;
+}
+/* sub-menu  end*/
+.download_box{
+	position: relative;
+}
+.download_box .menu_btn{
+	font-family: 'Gilroy-ExtraBold.ttf';
+	display: inline-block;
+	padding: 20px 50px;
+	font-size: 14px;
+	color: #fff;
+	background: #7732c1;
+	border-radius: 50px;
+}
+.header_area_3 .menu_icon_box a{
+	color: #170e2a;
+}
+.header_area_3 .main_menu .menu_list li a{
+	color: #170e2a;
+}
+.header_4 .download_box .menu_btn{
+	background: #fff;
+	color: #1b1c2f;
+}
+/*===================== End header_area css =====================*/
+
+/*===================== 4. Start idle_bg_1 section css =====================*/
+.header_bg{
+	position: relative;
+	padding-top: 205px;
+	padding-bottom: 70px;
+}
+.idle_bg_1{
+	background: url(../../assets/images/home_bg1.jpg) no-repeat;
+	background-size: cover;
+}
+.idle_bg_3{
+	background: url(../images/home_bg2.jpg) no-repeat;
+	background-size: cover;
+}
+.idle_bg_text h1{
+	font-size: 100px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 25px;
+	line-height: 110px;
+}
+.idle_bg_text p{
+	font-size: 18px;
+	color: #fff;
+}
+.idle_bg_text {
+    margin-bottom: 50px;
+}
+.idle_bg_3 .bg_btn{
+	color: #170e2a;
+}
+.idle_bg_3 .bg_btn.active-btn{
+	color: #fff;
+}
+.idle_bg_3 .bg_btn.active-btn:hover{
+	color: #170e2a;
+}
+.bg_btn{
+	padding: 25px 50px;
+	line-height: 1.667;
+	color: #fff;
+	background: transparent;
+	border: 2px solid #af86e7;
+	border-radius: 50px;
+	transition: all .5s;
+	margin-right: 30px;
+}
+.active-btn{
+	display: inline-block;
+    background: #ff9d60 !important;
+	color: #fff;
+	border-color: #ff9d60 !important;
+    transition: all .5s;
+}
+.idle_bg_btn .active-btn:hover{
+	background: transparent !important;
+	border-color: #af86e7 !important;
+	color: #fff;
+}
+.idle_bg_btn .bg_btn:hover{
+	background: #ff9d60;
+	border-color: #ff9d60;
+	color: #fff;
+	box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.1);
+}
+.idle_bg_3 .idle_bg_text h1{
+	color: #170e2a;
+}
+.idle_bg_3 .idle_bg_text p{
+	color: #6870a0;
+}
+/*===================== End idle_bg_1 section css =====================*/
+
+
+/*===================== 5. Start idle_plan section css =====================*/
+.idle_plan_span{
+	margin-bottom: 22px;
+}
+.plan_text_area h2{
+	font-size: 50px;
+	margin-bottom: 41px;
+}
+.plan_text_area p{
+	margin-bottom: 45px;
+}
+.plan_button .plan_btn{
+	display: inline-block;
+	padding: 25px 56px;
+	background: #ff9d60;
+	color: #fff;
+	font-size: 14px;
+}
+.plan_button .plan_btn:hover{
+	box-shadow: 0px 16px 32px 0px rgba(255, 157, 96, 0.5);
+}
+.plan_box {
+    padding: 25px 40px;
+}
+.plan_icon{
+	margin-bottom: 35px;
+}
+.plan_icon img{
+	width: 50px;
+	height: 50px;
+}
+.plan_info h4{
+	margin-bottom: 25px;
+}
+.plan_info p{
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.plan_info  a.plan_btn{
+	font-size: 14px;
+	color: #b4b9d6;
+}
+.plan_info a.plan_btn:hover{
+	color: #ff9d60;
+	text-decoration: underline;
+}
+/*===================== End idle_plan section css =====================*/
+
+/*===================== 6. Start idle_intrested_app section css =====================*/
+.intrest_app_area h2{
+	font-size: 49px;
+	margin-bottom: 43px;
+	margin-top: 20px;
+}
+.intrest_app_download{
+	padding: 45px 0;
+	border-bottom: 2px solid rgb(255, 217, 194);
+}
+.intrest_app_download .intrest_app_btn{
+	font-family: 'Gilroy-Bold.ttf';
+    display: inline-block;
+    padding: 27px 50px;
+    border-radius: 50px;
+    padding-left: 90px;
+    line-height: 20px;
+    border: 2px solid #ffd4d1;
+    font-size: 14px;
+    background: transparent;
+    font-weight: bold;
+    position: relative;
+    transition: all .5s;
+    margin-right: 30px;
+}
+.intrest_app_download .intrest_app_btn:hover{
+	background: rgb(255, 157, 96);
+  	box-shadow: 0px 16px 32px 0px rgba(255, 157, 96, 0.5);
+}
+.intrest_app_download .intrest_app_btn:hover:before{
+	color: #fff;
+}
+.app_icon:before{
+	font-family: 'Font Awesome 5 Brands';
+    position: absolute;
+    left: 42px;
+    top: 37px;
+    font-size: 38px;
+    color: #ff9d60;
+}
+.android_icon:before{
+	content: '\f17b';
+}
+.apple_icon:before{
+	content: '\f179';
+}
+.intrest_app_download .intrest_app_btn span{
+	display: block;
+	font-size: 12px;
+	color: #ffd4d1;
+	text-transform: uppercase;
+}
+.intrest_app_icon {
+	float: left;
+}
+.intrest_app_icon i{
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	color: #ff9d60;
+	line-height: 100px;
+	font-size: 45px;
+	background: rgb(255, 255, 255);
+  	box-shadow: 0px 16px 32px 0px rgba(255, 157, 96, 0.5);
+  	border-radius: 50%;
+}
+.intrest_review_text {
+    padding-top: 25px;
+    margin-left: 130px;
+}
+.intrest_review_text h4{
+	margin-bottom: 15px;
+}
+.intrest_review_text a{
+	font-size: 14px;
+	color: #ff9d60;
+}
+/*===================== End idle_intrested_app section css =====================*/
+
+/*===================== 7. Start idle_featues_slide section css =====================*/
+.feature_area{
+	padding: 80px 50px;
+	text-align: center;
+	margin-right: 20px;
+	margin-left: 20px;
+	border: 2px solid #e4e7ff;
+	margin-bottom: 40px;
+	outline: none;
+}
+.feature_area:nth-child(2n){
+    margin-top: 40px;
+    background: rgb(255, 255, 255);
+	box-shadow: 0px 16px 32px 0px rgba(207, 205, 255, 0.5);
+	border:none;
+}
+.feature_icon{
+	width: 120px;
+	height: 120px;
+	line-height: 120px;
+	text-align: center;
+	background: #f6f6ff;
+	margin: 0 auto 35px auto;
+	border-radius: 50%;
+}
+.feature_icon i{
+	font-size: 60px;
+}
+.feature_info h4{
+	font-size: 23px;
+	margin-bottom: 35px;
+}
+/*===================== End idle_featues_slide section css =====================*/
+
+/*===================== 8. Satrt idle_video section css =====================*/
+.idle_video{
+	position: relative;
+	background: url(../images/video_bg.jpg) no-repeat;
+}
+.play_area{
+	background: url(../images/play_bg.jpg) no-repeat center;
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+	padding: 225px 0;
+	margin-top: 10px;
+}
+.play_icon{
+	text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 16px 32px 0px rgba(89, 115, 159, 0.2);
+    line-height: 150px;
+    margin: 0 auto;
+}
+.play_icon a.play_btn{
+	font-family: 'Gilroy-Bold.ttf';
+	display: inline-block;
+	width: 120px;
+  	height: 120px;
+  	line-height: 120px;
+  	border-radius: 50%;
+	background: rgb(255, 255, 255);
+	color: #170e2a;
+	font-size: 14px;
+}
+/*===================== End idle_video section css =====================*/
+
+/*===================== 9. Start idle_pricing section css =====================*/
+.idle_pricing{
+	position: relative;
+}
+.pricing_tab{
+	margin-top: 20px;
+	float: right;
+	position: relative;
+}
+.pricing_tab ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: none;
+}
+.pricing_tab input{
+	width: 376px;
+	height: 80px;
+	border: 2px solid #e4e7ff;
+	border-radius: 50px;
+}
+.pricing_tab ul li a.active{
+	background: #ff9d60 !important;
+	color: #fff !important;
+	border-color: #ff9d60 !important;
+	z-index: 1;
+}
+.pricing_tab ul li a.pricing_tab_btn{
+	font-family: 'Gilroy-Bold.ttf';
+    display: inline-block;
+    padding: 27px 59px;
+    font-size: 14px;
+    color: #6870a0;
+    background: transparent;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    transition: all .5s;
+}
+.tab-content {
+    margin-top: 10px;
+}
+.price_table{
+	padding: 80px;
+	text-align: center;
+	background: rgb(255, 255, 255);
+	box-shadow: 0px 16px 32px 0px rgba(255, 157, 96, 0.1);
+}
+.price_title h2{
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.price_tag h1{
+	color: #ff9d60;
+	font-size: 70px;
+	margin-bottom: 25px;
+}
+.price_tag h1 span{
+	color: #6870a0;
+	font-size: 16px;
+}
+.price_body{
+	margin-bottom: 40px;
+}
+.price_body ul li{
+	line-height: 40px;
+	font-size: 14px;
+}
+.price_body ul li:hover{
+	color: #ff9d60;
+	text-decoration: underline;
+}
+.price_button .price_btn{
+	display: inline-block;
+	font-family: 'Gilroy-Bold.ttf';
+	padding: 25px 43px;
+	border: 2px solid rgb(228, 231, 255);
+	background: transparent;
+	color: #6870a0;
+	font-size: 14px;
+	border-radius: 50px;
+	text-transform: capitalize;
+	transition: all .5s;
+}
+.price_button .price_btn:hover{
+	color: #fff;
+	background: rgb(255, 157, 96);
+  	box-shadow: 0px 16px 32px 0px rgba(255, 157, 96, 0.5);
+  	border-color: #ff9d60;
+}
+.price_bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+/*===================== End idle_pricing section css =====================*/
+
+/*===================== 10. Start idle_works section css =====================*/
+.work_box_area{
+	position: relative;
+}
+.work_line{
+	height: 2px;
+    width: 70%;
+    border-bottom: 1px solid #ffefe5;
+    margin: 0 auto;
+    position: absolute;
+    left: 15%;
+    top: 41%;
+}
+.work_box{
+	padding: 30px;
+}
+.work_icon{
+	margin-bottom: 35px;
+}
+.work_info a.work_btn{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #bdb9c7;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 50%;
+	background: rgb(255, 255, 255);
+	box-shadow: 0px 16px 32px 0px rgba(255, 157, 96, 0.3);
+	margin-bottom: 35px;
+	transition: all .5s;
+}
+.work_info a.work_btn:hover{
+	color: #fff;
+	background: rgb(249, 158, 101);
+  	box-shadow: 0px 16px 32px 0px rgba(255, 157, 96, 0.5);
+}
+.work_info h4{
+	margin-bottom: 28px;
+}
+/*===================== End idle_works section css =====================*/
+
+/*===================== 11. Start idle_app_trial section css =====================*/
+.idle_app_trial{
+	background: url(../images/app_bg.jpg) no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+.idle_title_span.app_title_span  span{
+	color: #fff;
+}
+.idle_title.app_title h2{
+	color: #fff;
+}
+/* Start idle_testimonial section css*/
+.testimonial_text h2{
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: bold;
+	margin-bottom: 24px;
+}
+.testimonial_text p {
+    font-size: 14px;
+}
+.testimonial_single{
+	margin: 0 30px 0px 0px;
+	padding: 50px;
+	border: 1px solid #ffefe5;
+}
+.testimonial_single .testimonial_review p{
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.testimonial_single .testimonial_review h5{
+	font-size: 18px;
+}
+.testimonial_single .testimonial_review h5 span{
+	font-size: 14px;
+	color: #ff9d60;
+}
+.testimonial_icon{
+	margin-bottom: 45px;
+}
+.testimonial_icon i{
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(255, 157, 96);
+    box-shadow: 0px 16px 32px 0px rgba(255, 157, 96, 0.5);
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    line-height: 50px;
+    color: #fff
+}
+.feature_slide.slick-initialized.slick-slider {
+    height: 500px;
+}
+.testimonial_single{
+	outline: none;
+}
+.testimonial_slide .slick-prev,
+.testimonial_slide .slick-next{
+	font-family: 'Gilroy-Bold.ttf';
+	font-size: 14px;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 50px;
+	text-transform: capitalize;
+	background: transparent;
+	color: #b5bada;
+	border: 2px solid #b5bada;
+	outline: none;
+	transition: all .5s;
+}
+.testimonial_slide .slick-prev:hover,
+.testimonial_slide .slick-next:hover{
+	background: rgb(255, 157, 96);
+	box-shadow: 0px 16px 32px 0px rgba(255, 157, 96, 0.5);
+	opacity: 1;
+	border-color: rgb(255, 157, 96);
+	color: #fff;
+}
+.testimonial_slide .slick-prev{
+  	position: absolute;
+  	left: -35%;
+  	top: 90%;
+}
+.testimonial_slide .slick-next{
+  	position: absolute;
+  	left: -24%;
+  	top: 90%;
+}
+/*===================== End idle_app_trial section css =====================*/
+
+/*===================== 12. Start idle_news_feed section =====================*/
+.idle_news_feed{
+	background: #fff7ee;
+}
+.blog_sigle_area .blog_info{
+	margin-top: 35px;
+}
+.blog_sigle_area  .blog_info h3{
+	line-height: 36px;
+	font-size: 24px;
+}
+.blog_sigle_area  .blog_info a.b_tag{
+	display: block;
+	font-size: 14px;
+	color: #ff9d60;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+/*===================== End idle_news_feed section =====================*/
+
+/*===================== 13. Start idle_widget section =====================*/
+.idle_widget{
+	background: #170e2a;
+}
+.widget-title{
+	margin-bottom: 50px;
+}
+.widget-title h4{
+	color: #fff;
+}
+.widget-title h4 span{
+	color: #ff9d60;
+}
+.widget-about p{
+	font-size: 14px;
+	color: #c0b9cf;
+}
+.widget-link {
+	margin-top: 40px;
+}
+.widget-link ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.widget-link ul li a{
+	display: block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 50%;
+	background: #1f1436;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	transition: all .5s;
+}
+.widget-link ul li a:hover{
+	background: #ff9d60;
+	box-shadow: 2.778px 15.757px 32px 0px rgba(255, 157, 96, 0.3);
+}
+.widget-link ul li span{
+	margin-right: 15px;
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Gilroy-Bold.ttf';
+}
+.widget-list ul li{
+	line-height: 40px;
+}
+.widget-list ul li a{
+	color: #c0b9cf;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+/* ===================== End bilo-widget section =====================*/
+
+/* ===================== 14. Start idle_footer =====================*/
+.idle_footer{
+	background: #100920;
+	padding: 30px 0;
+}
+.idle_footer_text p{
+	color: #fff;
+}
+/*===================== End idle_footer =====================*/
+
+/*===================== 15. Satrt Blog.html css =====================*/
+.idle_sb_bg{
+	background: url(../images/home_bg1.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 335px 0 220px;
+}
+.breadcrumb_text h1{
+	font-size: 100px;
+	color: #fff;
+	margin-bottom: 18px;
+}
+.breadcrumb_text ul li{
+	display: inline-block;
+	padding: 0 10px;
+	color: #fff;
+}
+.breadcrumb_text ul li a{
+	color: #fff;
+	text-transform: capitalize;
+}
+.bl_main_info{
+	padding: 50px !important;
+	border-color: #fff0f0 !important;
+}
+.blog_main_img{
+	position: relative;
+}
+.bl_main_info.blog_details h2 {
+    font-size: 32px;
+}
+.bl_main_info p{
+	padding: 25px 0;
+}
+.bl_main_info .blog_btn{
+	display: inline-block;
+	padding: 25px 47px;
+	font-size: 14px;
+	background: #e5e6f0;
+	letter-spacing: 1px;
+	border-radius: 50px;
+	font-weight: 500;
+	transition: all .5s;
+}
+.bl_main_info .blog_btn:hover{
+	background: rgb(255, 157, 96);
+  	box-shadow: 2.778px 15.757px 32px 0px rgba(255, 157, 96, 0.3);
+}
+.blog_play {
+	position: absolute;
+	top: 41%;
+	left: 45%;
+}
+.blog_play .b_play{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	background: #ff9d60;
+	border-radius: 50%;
+}
+.bl_main_area .bl_main_info{
+	border-top: 1px solid #fff0f0 !important;
+}
+.idle_paginaition ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.idle_paginaition ul li a{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #6870a0;
+	background: #fff2f2;
+	border-radius: 50px;
+	transition: all .5s;
+}
+.idle_paginaition ul li a:hover{
+	background: rgb(255, 157, 96);
+  	box-shadow: 0px 16px 32px 0px rgba(255, 157, 96, 0.3);
+}
+.blog_main_area_bg{
+	background: url(../images/bl-bg.jpg) no-repeat;
+	background-size: cover;
+	padding: 45px 50px;
+	border: 1px solid #fff0f0;
+}
+.blog_icon{
+	float: left;
+	margin-top: 10px;
+}
+.blog_text{
+	margin-left: 80px;
+}
+.blog_text h2{
+	line-height: 36px;
+}
+.blog_text h2 a{
+	font-size: 27px;
+}
+.widget_sidebar{
+	width: 300px;
+	margin: 0 auto;
+}
+.sidebar_widget_title h3{
+	font-size: 28px;
+	margin-bottom: 30px;
+	color: #170e2a;
+	font-weight: bold;
+}
+.search_widget form{
+    position: relative;
+}
+.search_widget input{
+	position: relative;
+	width: 100%;
+	height: 60px;
+	font-size: 12px;
+	color: #6870a0;
+	border: 1px solid #edeaf2;
+	padding: 0px 0px 0px 28px;
+}
+.search_widget input::placeholder{
+	color: #6870a0;
+}
+.search_widget button.search_btn{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 14px;
+	color: #fff;
+	top: 0;
+	right: 0;
+	border: none;
+	background: #ff9d60;
+}
+.ins_pa{
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.insta_img{
+	margin-bottom: 15px;
+}
+.insta_img img{
+	width: 100%;
+}
+.social_widget_link li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.social_widget_link li a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #fff0f0;
+	border-radius: 50%;
+	font-size: 14px;
+	color: #6870a0;
+	transition: all .5s;
+}
+.social_widget_link li a:hover{
+	background: #ff9d60;
+	color: #fff;
+}
+.categories_list li{
+	line-height: 24px;
+	border-bottom: 1px solid #eaeaea;
+	margin-bottom: 16px;
+}
+.categories_list li a{
+	display: block;
+	padding-bottom: 16px;
+	color: #6870a0;
+}
+.categories_list li:last-child{
+	border-bottom: none;
+}
+.categories_list li a span{
+	float: right;
+}
+.feeds_single{
+    text-align: left;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.feeds_single .feeds_img{
+	width: 28%;
+	float: left;
+	margin-right: 15px;
+}
+.feeds_single .feeds_img img{
+	width: 100%;
+}
+.feeds_single .feeds_info{
+	width: 65%;
+    overflow: hidden;
+}
+.feeds_single .feeds_info h6 a{
+	display: block;
+	color: #170e2a;
+	margin-bottom: 5px;
+}
+.feeds_single .feeds_info p{
+	color: #6870a0;
+	font-size: 14px;
+}
+.feeds_single .feeds_info p i{
+	margin-right: 10px;
+}
+.tags_list{
+	text-align: left;
+}
+.tags_list li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.tags_list li a{
+	display: block;
+	padding: 15px 17px;
+	border: 1px solid #eaeaea;
+	font-size: 14px;
+	color: #6870a0;
+}
+.add_widget{
+	position: relative;
+}
+.add_widget_img {
+	background: url(../images/over_img.jpg) no-repeat;
+	background-size: cover;
+	padding: 50px 38px 50px 48px;
+    position: relative;
+    z-index: 1;
+}
+.add_widget_img:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    opacity: .9;
+    z-index: -1;
+    background: #ff9d60;
+}
+.add_widget_img img{
+	width: 100%;
+}
+.add_widget_text span{
+	display: block;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 126px;
+}
+.add_widget_text h2{
+	font-size: 37px;
+	font-weight: 300;
+	font-family: 'Rubik', sans-serif;
+	margin-bottom: 85px;
+}
+.add_widget_text .add_btn{
+	display: inline-block;
+	padding: 25px 36px;
+	color: #fff;
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-weight: 500;
+	background: #ff9d60;
+}
+/*===================== End blog.html css =====================*/
+
+/*===================== 16. Start Bilo Single_blog.html css =====================*/
+.admin_area_link {
+	margin-bottom: 6px;
+}
+.admin_area_link ul li{
+	display: inline-block;
+	margin-right: 30px;
+}
+.admin_area_link ul li a{
+	color: #6870a0;
+	font-size: 14px;
+}
+.admin_area_link ul li i{
+	margin-right: 6px;
+}
+.content_text_area h2{
+	font-size: 32px;
+	line-height: 46px;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+}
+.content_text_area p.p_35{
+	margin-bottom: 35px;
+}
+.content_text_area p{
+	margin-bottom: 45px;
+}
+.content_text_area .blockquote{
+	background: #170e2a;
+	padding: 30px 50px 30px 90px;
+	margin-bottom: 45px;
+}
+.content_text_area .blockquote p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #cbc1df;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+.content_text_area .blockquote h6{
+	font-size: 14px;
+	color: #fff;
+}
+.content_text_area img{
+	margin-bottom: 45px;
+	width: 100%;
+}
+.inner_content{
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 50px;
+}
+.content_img{
+	width: 35%;
+	float: left;
+	padding-right: 20px;
+}
+.content_img img{
+	width: 100%;
+	margin-bottom: 0;
+}
+.content_inner_text{
+	width: 65%;
+	float: left;
+}
+.content_inner_text p{
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.content_share_area{
+	clear: both;
+}
+.tags_area h4{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.tags_area ul.social_link_2 li{
+	margin-right: 0;
+	margin-left: 10px;
+}
+.tags_area ul.tags_list li{
+	margin-bottom: 0;
+}
+.prev_next_area{
+	padding: 45px 0;
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+}
+.prev_next_text a{
+	color: #7886a0;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.releted_post_title h4,
+.comment_title h4,
+.post_title h4{
+	font-size: 26px;
+	font-weight: bold;
+	color: #170e2a;
+}
+.releted_post{
+	margin-bottom: 110px;
+}
+.blog_img img {
+    width: 100%;
+}
+.blog_details{
+	padding: 40px;
+	border: 1px solid #f4f3fb;
+	border-top: none;
+}
+.blog_details h4{
+	font-size: 24px;
+	line-height: 34px;
+	color: #170e2a;
+	margin-bottom: 16px;
+}
+.blog_details p{
+	font-size: 14px;
+}
+.about_admin{
+	background: #fff8f3;
+	padding: 53px 65px;
+	position: relative;
+}
+.admin_img {
+	position: absolute;
+	top: -120px;
+	left: 270px;
+	text-align: center;
+}
+.admin_img img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 6px solid #fff;
+	background-color: rgb(209, 209, 209);
+}
+.admin_bio{
+	margin-top: 40px;
+}
+.admin_bio h4{
+	font-size: 26px;
+	font-weight: bold;
+	color: #170e2a;
+	margin-bottom: 10px;
+}
+.admin_bio ul.social_link_2{
+	margin-bottom: 20px;
+}
+ul.social_link_2 li{
+	display: inline-block;
+	margin-right: 10px;
+}
+ul.social_link_2 li a{
+	font-size: 14px;
+	color: #9498b6;
+}
+ul.social_link_2 li a:hover{
+	color: #ff9d60;
+}
+.admin_bio p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.comment_list_area{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eaeaea;
+}
+.comment_list_area .single_comment {
+	margin-bottom: 50px;
+}
+.comment_list_area .single_comment .comment_img{
+	float: left;
+}
+.comment_list_area .single_comment .comment_img img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.comment_list_area .single_comment .comment_text{
+	margin-left: 130px;
+}
+.comment_list_area .single_comment .comment_text h5 {
+	color: #170e2a;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.comment_list_area .single_comment .comment_text h5 i{
+	color: #cacfef;
+	font-size: 12px;
+}
+.comment_list_area .single_comment .comment_text h6{
+	color: #ff9d60;
+	letter-spacing: 2px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.comment_list_area .single_comment .comment_text p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.comment_list_area .single_comment .comment_text h5 i{
+	margin-left: 25px;
+}
+.comment_list_area .single_comment .comment_text h5 span{
+	float: right;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.comment_list_area .single_comment .comment_text h5 span a{
+	color: #7886a0;
+}
+.comment_list_area .single_comment .comment_text h5 span a i{
+	margin-right: 4px;
+	color: #7886a0;
+}
+.post_form{
+	background: #fff8f3;
+	padding: 50px;
+}
+.post_form .form_list {
+	position: relative;
+}
+.post_form .form_list input{
+	width: 100%;
+	height: 60px;
+	background: #fff;
+	padding: 23px 30px;
+	border: none;
+	outline: none;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.post_form .form_list textarea{
+	width: 100%;
+	height: 150px;
+	padding: 23px 30px;
+	border: none;
+	outline: none;
+	text-transform: capitalize;
+	margin-bottom: 14px;
+}
+.post_form .form_list i{
+	position: absolute;
+	right: 30px;
+	top: 23px;
+	color: #ff9d60;
+	font-size: 14px;
+}
+textarea::placeholder{
+	color: #a7a7c1;
+	font-size: 14px;
+}
+input::placeholder{
+	color: #a7a7c1;
+	font-size: 14px;
+}
+.idle_post_button .idle_post_btn{
+	border: none;
+	display: inline-block;
+	padding: 25px 62px;
+	font-size: 14px;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-radius: 50px;
+	background: rgb(255, 157, 96);
+	transition: all .5s;
+}
+.idle_post_button .idle_post_btn:hover{
+	box-shadow: 0px 16px 32px 0px rgba(255, 157, 96, 0.3);
+}
+.idle_post_button {
+    margin-top: 10px;
+}
+/*===================== End Bilo Single_blog.html css =====================*/
+
+/*===================== 17. Start index.html css ===================== */
+.demo_bg{
+	background: url(../images/home_bg1.jpg) no-repeat;
+	background-size: cover;
+	padding: 200px 0;
+}
+.demo_bg_text h2{
+	color: #fff;
+}
+.demo_area{
+	margin-bottom: 60px;
+}
+.demo_single{
+	margin-bottom: 30px;
+}
+.demo_btn{
+	display: inline-block;
+	padding: 25px 55px;
+	font-size: 16px;
+	color: #170e2a;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background: #ff9d60;
+	border-radius: 50px;
+	transition: all .5s;
+}
+.demo_btn:hover{
+	box-shadow: 0px 16px 32px 0px rgba(255, 157, 96, 0.5);
+}
+
+.feature_intro{
+	background: #fff7ee;
+}
+.template_feature_box {
+    text-align: center;
+    padding: 40px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+.template_icon img{
+	width: 50px;
+	margin-bottom: 20px;
+}
+/*===================== End index.html css =====================*/
+
+/*===================== 18. Start index_4.html css =====================*/
+.idle_title_2{
+	position: relative;
+	margin-bottom: 80px;
+}
+.title_img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.idle_title_2 span{
+	display: block;
+	font-family: 'Gilroy-Light.ttf';
+	font-size: 50px;
+	line-height: 40px;
+	color: #1b1c2f;
+}
+.idle_title_2 h2{
+	margin-bottom: 30px;
+}
+.idle_title_2 p{
+	color: #1b1c2f;
+}
+.idle_bg_4{
+	background: url(../images/soft/bg_4.jpg) no-repeat;
+	background-size: cover;
+}
+.idle_bg_5{
+	background: url(../images/soft/bg_5.jpg) #f6f6f6 no-repeat;
+	background-size: cover;
+	padding-bottom: 200px;
+}
+.idle_bg_6{
+	background: url(../images/soft/bg_6.jpg) no-repeat;
+	background-size: cover;
+}
+.idle_bg_4 .bg_4_button .bg_btn{
+	border-color: #fff;
+}
+.idle_bg_4 .bg_4_button .active-btn{
+	display: inline-block;
+    background: #fd6692!important;
+	color: #fff;
+	border-color: #fd6692!important;
+    transition: all .5s;
+}
+.idle_bg_4 .bg_4_button.idle_bg_btn .bg_btn:hover{
+	background: #fd6692;
+	border-color: #fd6692;
+	color: #fff;
+	box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.1);
+}
+.header_5 .main_menu ul li a{
+	color: #1b1c2f;
+}
+.sticky.header_5 .main_menu ul li a,
+.sticky.header_6 .main_menu ul li a{
+	color: #fff;
+}
+.header_5 .download_box a.menu_btn,
+.header_6 .download_box a.menu_btn{
+	background: transparent;
+	color: #fff;
+	border:2px solid #fff;
+	transition: all .5s;
+}
+.header_5 .download_box a.menu_btn:hover,
+.header_6 .download_box a.menu_btn:hover{
+	background: #7732c1;
+	border-color: #7732c1;
+}
+.idle_bg_5 .idle_bg_text h1,
+.idle_bg_6 .idle_bg_text h1{
+	color: #1b1c2f;
+}
+.idle_bg_6 .idle_bg_text p{
+	color: #6870a0;
+}
+.idle_bg_5 .bg_4_button .bg_btn,
+.idle_bg_6 .bg_4_button .bg_btn{
+	border-color: #b9bbca;
+	color: #6870a0;
+}
+.idle_bg_5 .bg_4_button .active-btn{
+	display: inline-block;
+    background: #fa8319!important;
+	color: #fff;
+	border-color: #fa8319!important;
+    transition: all .5s;
+}
+.idle_bg_5 .bg_4_button.idle_bg_btn .bg_btn:hover{
+	background: #fa8319;
+	border-color: #fa8319;
+	color: #fff;
+	box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.1);
+}
+.idle_bg_6 .bg_4_button .active-btn{
+	display: inline-block;
+    background: #f9723e!important;
+	color: #fff;
+	border-color: #f9723e!important;
+    transition: all .5s;
+}
+.idle_bg_6 .bg_4_button.idle_bg_btn .bg_btn:hover{
+	background: #f9723e;
+	border-color: #f9723e;
+	color: #fff;
+	box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.1);
+}
+.header_6 .main_menu ul li a{
+	color: #1b1c2f;
+}
+.about_text_area{
+	position: relative;
+}
+.about_text_area h2{
+	margin-bottom: 20px;
+}
+.about_text_area h2 span{
+	font-family: 'Gilroy-Light.ttf';
+	margin-bottom: 20px;
+}
+.about_text_area p{
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+.about_left img{
+	width: 100%;
+	height: 350px;
+}
+.about_feature{
+	margin-top: 120px;
+}
+.feature_box_text{
+	position: relative;
+}
+.feature_box_text span{
+	font-family: 'Gilroy-Light.ttf';
+	font-size: 50px;
+	color: #1b1c2f;
+	line-height: 40px;
+	margin-bottom: 3px;
+}
+.feature_box_text h2{
+	margin-bottom: 35px;
+}
+.ab_margin_1{
+	margin-bottom: 80px;
+}
+.ab_margin_2{
+	margin-top: -200px;
+}
+.ab_margin_3 {
+    margin-top: -120px;
+}
+.ab_feature_box{
+	position: relative;
+	padding: 56px 80px;
+	background-color: rgb(255, 255, 255);
+  	box-shadow: 0px 16px 32px 0px rgba(207, 205, 255, 0.5);
+  	transition: .5s;
+}
+.ab_feature_box:hover{
+	background-color: rgb(246, 71, 122);
+	box-shadow: 0px 16px 32px 0px rgba(207, 205, 255, 0.5);
+}
+.ab_feature_box:hover .ab_feature_info h3{
+	color: #fff;
+}
+.ab_feature_box:hover .ab_feature_info p{
+	color: #fff;
+}
+.shpae img{
+	width: 100%;
+}
+.shpae_1{
+	position: absolute;
+	top: 42px;
+	right: 52px;
+}
+.shpae_2{
+	position: absolute;
+	top: 17px;
+	right: 28px;
+}
+.shpae_3{
+	position: absolute;
+	top: 50px;
+	right: 32px;
+}
+.shpae_4{
+	position: absolute;
+	top: 26px;
+	left: 46px;
+}
+.ab_feature_icon{
+	margin-bottom: 21px;
+}
+.ab_feature_info h3{
+	font-size: 30px;
+	margin-bottom: 27px;
+}
+.ab_feature_info p{
+	color: #30314b;
+}
+.idle_pricing_table_2{
+	position: relative;
+}
+.price_bg_2{
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.price_bg_2 img{
+	width: 100%;
+}
+.soft_tilte h2{
+	margin-bottom: 30px;
+}
+.price_table_2{
+	overflow: hidden;
+	text-align: center;
+	background: #fff;
+	box-shadow: 0px 16px 90px 0px rgba(223, 211, 186, 0.39);
+}
+.price_title_2{
+	text-align: center;
+	padding: 40px 0px;
+	background: -webkit-linear-gradient(220deg, rgb(253,83,132) 0%, rgb(234,123,34) 100%);
+	background: -o-linear-gradient(220deg, rgb(253,83,132) 0%, rgb(234,123,34) 100%);
+	background: linear-gradient(310deg, rgb(253,83,132) 0%, rgb(234,123,34) 100%);
+	transition: all .5s;
+}
+.price_table_2:hover .price_title_2{
+	background: -webkit-linear-gradient(40deg, rgb(253,83,132) 0%, rgb(234,123,34) 100%);
+	background: -o-linear-gradient(40deg, rgb(253,83,132) 0%, rgb(234,123,34) 100%);
+	background: linear-gradient(130deg, rgb(253,83,132) 0%, rgb(234,123,34) 100%);
+}
+.price_title_2 h2{
+	font-family: 'Gilroy-Bold.ttf';
+	font-size: 35px;
+	color: #fff;
+	font-weight: bold;
+}
+.price_title_2 h4{
+	font-family: 'Gilroy-Regular.ttf';
+	font-size: 24px;
+	color: #fff;
+}
+.price_body_2{
+	padding: 40px 0;
+}
+.price_body_2 ul li{
+	line-height: 50px;
+	color: #30314b;
+}
+.price_button_2{
+	margin-bottom: 50px;
+	display: block;
+}
+.price_button_2 .price_btn{
+	display: inline-block;
+	padding: 19px 26px;
+	background: rgb(246, 71, 122);
+  	font-size: 18px;
+  	color: #fff;
+  	text-transform: uppercase;
+  	font-weight: 500;
+  	transition: .5s;
+}
+.price_button_2 .price_btn:hover{
+	box-shadow: 0px 16px 32px 0px rgba(210, 209, 223, 0.5);
+}
+.idle_works{
+	margin-top: 120px;
+}
+.idle_work_bg{
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+.work_box_2{
+	margin-bottom: 40px;
+    overflow: hidden;
+    clear: both;
+}
+.work_box_icon_2{
+	float: left;
+}
+.work_box_info_2{
+	margin-left: 160px;
+}
+.work_box_info_2 h4{
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.work_box_info_2 p{
+	color: #30314b;
+}
+.work_box_count{
+	margin-bottom: 35px;
+}
+.work_box_count h2{
+	font-size: 70px;
+	color: #deddde;
+}
+.soft_download{
+	background: url(../images/soft/download_bg.jpg) no-repeat;
+	background-size: cover;
+}
+.soft_area_text p{
+	margin-bottom: 50px;
+}
+.soft_intro_video_img{
+	position: relative;
+}
+.soft_intro_video_img img{
+	width: 540px;
+	height: 540px;
+	border-radius: 50%;
+}
+.play_overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .7;
+	background: #30314b;
+	border-radius: 50%;
+}
+.play_icon_2{
+	position: absolute;
+	top: 42%;
+	left: 42%;
+}
+.play_icon_2 .play_button_2{
+	display: block;
+	width: 90px;
+  	height: 90px;
+  	line-height: 80px;
+  	text-align: center;
+  	background: rgb(253, 102, 146);
+  	box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.29);
+  	border: 8px solid #ea5e87;
+  	border-radius: 50%;
+  	z-index: 1;
+}
+.soft_btn_group .soft_btn{
+	position: relative;
+	display: inline-block;
+	padding: 25px 40px 25px 75px;
+	background: transparent;
+	color: #1b1c2f;
+	font-size: 14px;
+	border-radius: 50px;
+	font-weight: bold;
+	margin-right: 37px;
+	border: 2px solid #fd6692;
+	transition: all .5s;
+}
+.soft_btn_group .soft_btn:hover{
+	background: #fd6692;
+	color: #fff;
+	box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.1);
+}
+.soft_btn_group .soft_btn:hover:before{
+	color: #fff !important;
+}
+.soft_btn_group .soft_btn.active_btn{
+	background: #fd6692;
+	color: #fff;
+}
+.soft_btn_group .soft_btn.soft_icon:before{
+	font-family: 'Font Awesome 5 Brands';
+    position: absolute;
+    left: 35px;
+    top: 24px;
+    font-size: 38px;
+}
+.windo_icon:before{
+	content: '\f17a';
+	color: #fd6692;
+}
+.apple_icon:before{
+	content: '\f179';
+}
+.partners_single{
+	margin-bottom: 120px;
+	text-align: center;
+	outline: none;
+}
+.partners_single img{
+	margin: 0 auto;
+}
+.feedback_title{
+	margin-bottom: 80px;
+}
+.feedback_title span{
+	font-family: 'Gilroy-bold.ttf';
+	font-size: 30px;
+	color: #1b1c2f;
+}
+.feed_review{
+	padding: 60px 90px;
+	background: rgb(255, 255, 255);
+	box-shadow: 0px 5px 76px 0px rgba(7, 7, 7, 0.07);
+}
+.feed_review_text p{
+	color: #1b1c2f;
+	margin-bottom: 40px;
+}
+.feed_people_img {
+    text-align: center;
+    outline: none;
+}
+.feed_people_img img{
+	text-align: center;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.idle_blog_2{
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+.blog_area_2{
+	position: relative;
+}
+.blog_info_2{
+	position: absolute;
+	left: 0;
+	bottom: -130px;
+	width: 429px;
+	background-color: rgb(255, 255, 255);
+  	box-shadow: 0px 16px 32px 0px rgba(207, 205, 255, 0.5);
+  	padding: 28px 25px;
+}
+.blog_info_2 h3{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.blog_info_2 p{
+	color: #30314b;
+	margin-bottom: 30px;
+}
+.blog_info_2 a.bl_btn{
+	font-weight: 700;
+	font-style: italic;
+	color: #f6477a;
+	font-size: 16px;
+}
+.blog_img_2 img{
+	width: 100%;
+}
+.idle_newsletter{
+	display: block;
+	margin-bottom: -200px;
+}
+.idle_news_bg{
+	background: url(../images/soft/news_bg.jpg) no-repeat;
+	background-size: cover;
+	padding: 90px 0;
+	box-shadow: 0px 16px 32px 0px rgba(207, 205, 255, 0.5);
+	position: relative;
+	z-index: 1;
+}
+.idle_newsletter_title{
+	margin-bottom: 50px;
+}
+.idle_newsletter_title h2{
+	font-size: 40px;
+}
+.idle_newsletter_form form{
+	position: relative;
+}
+.idle_newsletter_form form input{
+	width: 100%;
+	height: 70px;
+	border-radius: 50px;
+	border: none;
+	background: #f4eef0;
+	padding-left: 40px;
+}
+.idle_newsletter_form form button.newsletter_btn{
+	position: absolute;
+	bottom: -5px;
+	right: 0;
+	width: 86px;
+	height: 86px;
+	line-height: 86px;
+	border-radius: 50%;
+	background: #fd6692;
+	color: #fff;
+	font-size: 32px;
+	border: none;
+}
+.idle_widget_2{
+	background: #f4eef0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	padding-top: 280px;
+	padding-bottom: 80px;
+}
+.footer_bg_img{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.footer_bg_img img{
+	width: 100%;
+}
+.idle_widget_2 .widget_area .widget-about p{
+	color: #1b1c2f;
+}
+.idle_widget_2 .widget_area .widget-link ul li a{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	color: #1b1c2f;
+	background: transparent;
+	border: 1px solid #f6477a;
+}
+.idle_widget_2 .widget_area .widget-link ul li a:hover{
+	background: #f6477a;
+	border-color: #f6477a;
+}
+.idle_widget_2 .widget_area .widget-title h4{
+	color: #1b1c2f;
+}
+.idle_widget_2 .widget_area .widget-list ul li a{
+	color: #1b1c2f;
+}
+.idle_widget_2 .widget_area .widget_list_2 ul li{
+	line-height: 35px;
+}
+.idle_widget_2 .idle_footer_text {
+	padding-top: 80px;
+}
+.idle_widget_2 .idle_footer_text p{
+	color: #1b1c2f;
+}
+.idle_widget_2 .widget_area .ins_pa{
+	padding-right: 9px;
+    padding-left: 9px;
+}
+.idle_widget_2 .widget_area .post_img{
+	margin-bottom: 18px;
+}
+.idle_widget_2 .widget_area .post_img img{
+	width: 100%;
+}
+/*===================== End index_4.html css =====================*/
+
+/*=============== 19. Start comesoon_area section css =====================*/
+.comesoon_area{
+	padding: 166px 0 156px;
+}
+.come_text_area span{
+	color: #f35a00;
+	font-weight: 500;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+	display: block;
+	text-transform: uppercase;
+}
+.come_text_area h1{
+	font-family: 'Nunito', sans-serif;
+	margin-bottom: 25px;
+	font-size: 60px;
+}
+.counter-column{
+	display: inline-block;
+	margin-right: 30px;
+}
+.offer_timer{
+	margin-top: 30px;
+}
+.inner{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	box-shadow: 0px 8px 16px 0px rgba(146, 167, 255, 0.3);
+}
+.inner span.count{
+	font-family: 'Nunito', sans-serif;
+	display: block;
+	font-size: 34px;
+	color: #fff;
+	padding-top: 30px;
+	margin-bottom: 4px;
+}
+.inner.day_bg{
+	background: -webkit-linear-gradient(57deg, rgb(57,83,255) 0%, rgb(27,143,254) 100%);
+	background: -o-linear-gradient(57deg, rgb(57,83,255) 0%, rgb(27,143,254) 100%);
+	background: linear-gradient(147deg, rgb(57,83,255) 0%, rgb(27,143,254) 100%);
+}
+.inner.hours_bg{
+	background: -moz-linear-gradient( 147deg, rgb(252,110,32) 0%, rgb(255,166,70) 100%);
+	background: -webkit-linear-gradient( 147deg, rgb(252,110,32) 0%, rgb(255,166,70) 100%);
+	background: -ms-linear-gradient( 147deg, rgb(252,110,32) 0%, rgb(255,166,70) 100%);
+}
+.inner.miniute_bg{
+	background: -moz-linear-gradient( 147deg, rgb(4,203,209) 0%, rgb(15,240,214) 100%);
+	background: -webkit-linear-gradient( 147deg, rgb(4,203,209) 0%, rgb(15,240,214) 100%);
+	background: -ms-linear-gradient( 147deg, rgb(4,203,209) 0%, rgb(15,240,214) 100%);
+}
+.inner.second_bg{
+	background: -moz-linear-gradient( 147deg, rgb(127,68,250) 0%, rgb(172,114,254) 100%);
+	background: -webkit-linear-gradient( 147deg, rgb(127,68,250) 0%, rgb(172,114,254) 100%);
+	background: -ms-linear-gradient( 147deg, rgb(127,68,250) 0%, rgb(172,114,254) 100%);
+}
+/*=============== End comesoon_area css =====================*/
