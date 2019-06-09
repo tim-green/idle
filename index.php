@@ -32,5 +32,7 @@
 <body>
 
 <script src="build/js/scripts.js" async></script>
+<!-- fontawesome kit -->
+<script src="https://kit.fontawesome.com/c20cab8581.js"></script>
 </body>
 </html>
