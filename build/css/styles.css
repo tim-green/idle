@@ -5229,7 +5229,7 @@ section{
 	font-size: 14px;
 	text-transform: capitalize;
 }
-/* End bilo-widget section =====================*/
+/* End Idle-widget section =====================*/
 
 /* 14. Start idle_footer =====================*/
 .idle_footer{
@@ -5522,7 +5522,7 @@ section{
 }
 /*End blog.html css =====================*/
 
-/*16. Start Bilo Single_blog.html css =====================*/
+/*16. Start Idle Single_blog.html css =====================*/
 .admin_area_link {
 	margin-bottom: 6px;
 }
@@ -5801,7 +5801,7 @@ input::placeholder{
 .idle_post_button {
     margin-top: 10px;
 }
-/*End Bilo Single_blog.html css =====================*/
+/*End Idle Single_blog.html css =====================*/
 
 /*17. Start index.html css */
 .demo_bg{
