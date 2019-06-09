@@ -45,12 +45,12 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2">
                         <div class="Idle_logo text-left">
-                           <?php include_once('includes/logo.php') ?>
+                           <?php include('includes/logo.php') ?>
                         </div>
                     </div>
                     <div class="col-lg-8">
                          <div class="nav_menu text-center">
-                           <?php include_once('includes/navigation.php') ?>
+                           <?php include('includes/navigation.php') ?>
                         </div>
                     </div>
                     <div class="col-lg-2">
@@ -428,17 +428,8 @@
         </section>
         <!-- End Idle-widget section -->
         <!-- Start footer -->
-        <footer class="Idle_footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="Idle_footer_text text-center">
-                            <p>Copyright By@Example - 2019</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer><!-- End footer -->
+        <?php include('includes/footer.php'); ?>
+        <!-- End footer -->
 <script src="build/js/scripts.js" async></script>
 <!-- fontawesome kit -->
 <script src="https://kit.fontawesome.com/c20cab8581.js"></script>

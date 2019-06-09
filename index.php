@@ -45,12 +45,12 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2">
                         <div class="idle_logo text-left">
-                            <?php include_once('includes/logo.php') ?>
+                            <?php include('includes/logo.php') ?>
                         </div>
                     </div>
                     <div class="col-lg-8">
                         <div class="nav_menu text-center">
-                           <?php include_once('includes/navigation.php') ?>
+                           <?php include('includes/navigation.php') ?>
                         </div>
                     </div>
                     <div class="col-lg-2">
@@ -109,7 +109,7 @@
                             <div class="col-lg-6">
                                 <div class="plan_box mb_60 wow fadeInUp" data-wow-delay=".2s">
                                     <div class="plan_icon">
-                                        <img src="assets/images/1.png" class="img-fluid" alt="">
+                                        <i class="fal fa-user-chart"></i>
                                     </div>
                                     <div class="plan_info">
                                         <h4>Easy To Control</h4>
@@ -121,7 +121,7 @@
                             <div class="col-lg-6">
                                 <div class="plan_box mb_60 wow fadeInUp" data-wow-delay=".3s">
                                     <div class="plan_icon">
-                                        <img src="assets/images/2.png" class="img-fluid" alt="">
+                                        <i class="fal fa-chart-bar"></i>
                                     </div>
                                     <div class="plan_info">
                                         <h4>Overview Reports</h4>
@@ -133,7 +133,7 @@
                             <div class="col-lg-6">
                                 <div class="plan_box wow fadeInUp" data-wow-delay=".4s">
                                     <div class="plan_icon">
-                                        <img src="assets/images/3.png" class="img-fluid" alt="">
+                                        <i class="fal fa-file-invoice-dollar"></i>
                                     </div>
                                     <div class="plan_info">
                                         <h4>Account Management</h4>
@@ -145,7 +145,7 @@
                             <div class="col-lg-6">
                                 <div class="plan_box wow fadeInUp" data-wow-delay=".5s">
                                     <div class="plan_icon">
-                                        <img src="assets/images/4.png" class="img-fluid" alt="">
+                                        <i class="fal fa-comments-alt"></i>
                                     </div>
                                     <div class="plan_info">
                                         <h4>Chat Setup</h4>
@@ -183,7 +183,7 @@
                         </div>
                         <div class="intrest_app_review mt_45">
                             <div class="intrest_app_icon">
-                                <i class="flaticon-review"></i>
+                               <i class="fal fa-thumbs-up"></i>
                             </div>
                             <div class="intrest_review_text">
                                 <h4>2M Happy Users</h4>
@@ -724,17 +724,8 @@
         </section>
         <!-- End Idle-widget section -->
         <!-- Start footer -->
-        <footer class="idle_footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="idle_footer_text text-center">
-                            <p>Copyright By@Example - 2019</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer><!-- End footer -->
+        <?php include('includes/footer.php'); ?>
+        <!-- End footer -->
 <script src="build/js/scripts.js" async></script>
 <!-- fontawesome kit -->
 <script src="https://kit.fontawesome.com/c20cab8581.js"></script>
