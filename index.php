@@ -45,7 +45,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-2">
                         <div class="idle_logo text-left">
-                            <a href="#"><img src="assets/images/logo.png" class="img-fluid" alt=""></a>
+                            <?php include_once('includes/logo.php') ?>
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -87,7 +87,7 @@
                 </div>
             </div>
         </section><!-- End Header Bg section  -->
-        <!-- Start Bilo plan section  -->
+        <!-- Start Idle plan section  -->
         <section class="idle_plan section_padding">
             <div class="container">
                 <div class="row">
@@ -159,7 +159,7 @@
                 </div>
             </div>
         </section>
-        <!-- End Bilo plan section  -->
+        <!-- End Idle plan section  -->
         <!-- Start idle_intrested_app section -->
         <section class="idle_intrested_app section_padding light_bg">
             <div class="container">
@@ -202,7 +202,7 @@
                     <span>core features</span>
                 </div>
                 <div class="idle_title text-center">
-                    <h2>Bilo Built With All <br>Cool Featues</h2>
+                    <h2>Idle Built With All <br>Cool Featues</h2>
                 </div>
             </div>
             <div class="feature_slide">
@@ -315,7 +315,7 @@
                             <span>pricing plans</span>
                         </div>
                         <div class="idle_title">
-                            <h2>Get Your Attention <br>With Bilo App.</h2>
+                            <h2>Get Your Attention <br>With Idle App.</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12">
@@ -551,7 +551,7 @@
             </div>
         </section>
         <!-- End idle_app_trial section -->
-        <!-- Start bilo testimonial section -->
+        <!-- Start Idle testimonial section -->
         <section class="idle_testimonial section_padding">
             <div class="container">
                 <div class="row">
@@ -598,7 +598,7 @@
                 </div>
             </div>
         </section>
-        <!-- End bilo testimonial section -->
+        <!-- End Idle testimonial section -->
         <!-- Start idle_news_feed section -->
         <section class="idle_news_feed section_padding">
             <div class="container">
@@ -650,7 +650,7 @@
             </div>
         </section>
         <!-- End idle_news_feed section -->
-        <!-- Start bilo-widget section -->
+        <!-- Start Idle-widget section -->
         <section class="idle_widget section_padding">
             <div class="container">
                 <div class="row">
@@ -722,7 +722,7 @@
                 </div>
             </div>
         </section>
-        <!-- End bilo-widget section -->
+        <!-- End Idle-widget section -->
         <!-- Start footer -->
         <footer class="idle_footer">
             <div class="container">

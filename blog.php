@@ -44,8 +44,8 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-2">
-                        <div class="bilo_logo text-left">
-                            <a href="#"><img src="assets/img/logo.png" class="img-fluid" alt=""></a>
+                        <div class="Idle_logo text-left">
+                           <?php include_once('includes/logo.php') ?>
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -64,7 +64,7 @@
         </header>
         <!-- End Header area -->
         <!-- Start Header Bg section  -->
-        <section class="single_blog bilo_sb_bg">
+        <section class="single_blog Idle_sb_bg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
@@ -175,7 +175,7 @@
                                     <h3>Search</h3>
                                 </div>
                                 <form>
-                                    <input type="search" class="bilo_input" placeholder="Search your keyword...">
+                                    <input type="search" class="Idle_input" placeholder="Search your keyword...">
                                     <button type="submit" class="search_btn" value="submit"><i class="fas fa-search"></i></button>
                                 </form>
                             </div>
@@ -338,7 +338,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="bilo_paginaition mt_50">
+                        <div class="Idle_paginaition mt_50">
                             <ul>
                                 <li><a href="#"><i class="fas fa-angle-double-left"></i></a></li>
                                 <li><a href="#">1</a></li>
@@ -354,8 +354,8 @@
             </div>
         </section>
         <!-- End main_blog section -->
-        <!-- Start bilo-widget section -->
-        <section class="bilo_widget section_padding">
+        <!-- Start Idle-widget section -->
+        <section class="Idle_widget section_padding">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -426,13 +426,13 @@
                 </div>
             </div>
         </section>
-        <!-- End bilo-widget section -->
+        <!-- End Idle-widget section -->
         <!-- Start footer -->
-        <footer class="bilo_footer">
+        <footer class="Idle_footer">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="bilo_footer_text text-center">
+                        <div class="Idle_footer_text text-center">
                             <p>Copyright By@Example - 2019</p>
                         </div>
                     </div>
