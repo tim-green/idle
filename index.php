@@ -208,7 +208,7 @@
             <div class="feature_slide">
                 <div class="feature_area">
                     <div class="feature_icon">
-                        <i class="flaticon-ui"></i>
+                        <i class="fal fa-webcam"></i>
                     </div>
                     <div class="feature_info">
                         <h4>Video Conference</h4>
@@ -217,7 +217,7 @@
                 </div>
                 <div class="feature_area">
                     <div class="feature_icon">
-                        <i class="flaticon-gear"></i>
+                        <i class="fal fa-share-square"></i>
                     </div>
                     <div class="feature_info">
                         <h4>Share Video, Image</h4>
@@ -226,7 +226,7 @@
                 </div>
                 <div class="feature_area">
                     <div class="feature_icon">
-                        <i class="flaticon-customer-service"></i>
+                       <i class="fal fa-phone-alt"></i>
                     </div>
                     <div class="feature_info">
                         <h4>Make A Call</h4>
@@ -235,7 +235,7 @@
                 </div>
                 <div class="feature_area">
                     <div class="feature_icon">
-                        <i class="flaticon-settings"></i>
+                        <i class="fal fa-edit"></i>
                     </div>
                     <div class="feature_info">
                         <h4>Photo Editing</h4>
@@ -244,7 +244,7 @@
                 </div>
                 <div class="feature_area">
                     <div class="feature_icon">
-                        <i class="flaticon-24-hours"></i>
+                        <i class="fal fa-envelope-open"></i>
                     </div>
                     <div class="feature_info">
                         <h4>24/7 Online Support</h4>
@@ -253,7 +253,7 @@
                 </div>
                 <div class="feature_area">
                     <div class="feature_icon">
-                        <i class="flaticon-gear"></i>
+                       <i class="fal fa-share-square"></i>
                     </div>
                     <div class="feature_info">
                         <h4>Share Video, Image</h4>
@@ -262,7 +262,7 @@
                 </div>
                 <div class="feature_area">
                     <div class="feature_icon">
-                        <i class="flaticon-customer-service"></i>
+                        <i class="fal fa-phone-alt"></i>
                     </div>
                     <div class="feature_info">
                         <h4>Make A Call</h4>
@@ -271,7 +271,7 @@
                 </div>
                 <div class="feature_area">
                     <div class="feature_icon">
-                        <i class="flaticon-settings"></i>
+                        <i class="fal fa-edit"></i>
                     </div>
                     <div class="feature_info">
                         <h4>Photo Editing</h4>
