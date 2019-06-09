@@ -4371,7 +4371,7 @@ body{
 	font-family: 'Rubik', sans-serif;
 	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
-	color: #6870a0;
+	color: #3c2768;
 	line-height: 26px;
     overflow-x: hidden;
 }
@@ -4399,7 +4399,6 @@ section{
 }
 .idle_span span{
 	color: #ff9d60;
-	text-decoration: underline;
 	letter-spacing: 2px;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -4409,7 +4408,6 @@ section{
 }
 .idle_title_span span{
 	color: #ff9d60;
-	text-decoration: underline;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -4429,9 +4427,8 @@ section{
 	font-size: 14px;
 	color: #fff;
 }
-/*=============== End Default css =====================*/
 
-/*=============== 2. Start preloader css =====================*/
+/* 2. Start preloader css */
 .preloader{
   background: #fff;
   height: 100%;
@@ -4502,9 +4499,8 @@ section{
   }
 }
 
-/*=============== End preloader css =====================*/
 
-/*=============== 3. Start header_area css =====================*/
+/* 3. Start header_area css */
 .header_area.sticky {
 	position: fixed;
 	top: 0;
@@ -4628,7 +4624,8 @@ section{
 	padding: 20px 50px;
 	font-size: 14px;
 	color: #fff;
-	background: #7732c1;
+	/*background: #7732c1;*/
+    background: #ff9d60;
 	border-radius: 50px;
 }
 .header_area_3 .menu_icon_box a{
@@ -4641,9 +4638,8 @@ section{
 	background: #fff;
 	color: #1b1c2f;
 }
-/*End header_area css =====================*/
 
-/*4. Start idle_bg_1 section css =====================*/
+/*4. Start idle_bg_1 section css */
 .header_bg{
 	position: relative;
 	padding-top: 205px;
@@ -4714,10 +4710,9 @@ section{
 .idle_bg_3 .idle_bg_text p{
 	color: #6870a0;
 }
-/*End idle_bg_1 section css =====================*/
 
 
-/*5. Start idle_plan section css =====================*/
+/*5. Start idle_plan section css */
 .idle_plan_span{
 	margin-bottom: 22px;
 }
@@ -4743,6 +4738,7 @@ section{
 }
 .plan_icon{
 	margin-bottom: 35px;
+    font-size: 3em;
 }
 .plan_icon img{
 	width: 50px;
@@ -4763,9 +4759,8 @@ section{
 	color: #ff9d60;
 	text-decoration: underline;
 }
-/*End idle_plan section css =====================*/
 
-/*6. Start idle_intrested_app section css =====================*/
+/*6. Start idle_intrested_app section css */
 .intrest_app_area h2{
 	font-size: 49px;
 	margin-bottom: 43px;
@@ -4843,9 +4838,8 @@ section{
 	font-size: 14px;
 	color: #ff9d60;
 }
-/*End idle_intrested_app section css =====================*/
 
-/*7. Start idle_featues_slide section css =====================*/
+/*7. Start idle_featues_slide section css */
 .feature_area{
 	padding: 80px 50px;
 	text-align: center;
@@ -4864,12 +4858,19 @@ section{
 .feature_icon{
 	width: 120px;
 	height: 120px;
-	line-height: 120px;
+	line-height: 155px;
 	text-align: center;
 	background: #f6f6ff;
 	margin: 0 auto 35px auto;
 	border-radius: 50%;
 }
+
+.feature_icon:hover{
+    background: #3c2768;
+    color: #fff;
+    transition-duration: 1s;
+}
+
 .feature_icon i{
 	font-size: 60px;
 }
@@ -4877,15 +4878,14 @@ section{
 	font-size: 23px;
 	margin-bottom: 35px;
 }
-/*End idle_featues_slide section css =====================*/
 
-/*8. Satrt idle_video section css =====================*/
+/*8. Satrt idle_video section css */
 .idle_video{
 	position: relative;
-	background: url(../assets/images/video_bg.jpg) no-repeat;
+	background: url(../build/assets/images/video_bg.jpg) no-repeat;
 }
 .play_area{
-	background: url(../assets/images/play_bg.jpg) no-repeat center;
+	background: url(../build/assets/images/play_bg.jpg) no-repeat center;
 	background-size: cover;
 	height: 600px;
 	text-align: center;
@@ -4913,9 +4913,8 @@ section{
 	color: #170e2a;
 	font-size: 14px;
 }
-/*End idle_video section css =====================*/
 
-/*9. Start idle_pricing section css =====================*/
+/*9. Start idle_pricing section css */
 .idle_pricing{
 	position: relative;
 }
@@ -5012,9 +5011,8 @@ section{
     left: 0;
     z-index: -1;
 }
-/*End idle_pricing section css =====================*/
 
-/*10. Start idle_works section css =====================*/
+/*10. Start idle_works section css */
 .work_box_area{
 	position: relative;
 }
@@ -5055,9 +5053,8 @@ section{
 .work_info h4{
 	margin-bottom: 28px;
 }
-/*End idle_works section css =====================*/
 
-/*11. Start idle_app_trial section css =====================*/
+/*11. Start idle_app_trial section css */
 .idle_app_trial{
 	background: url(../assets/images/app_bg.jpg) no-repeat center;
 	background-size: cover;
@@ -5150,9 +5147,8 @@ section{
   	left: -24%;
   	top: 90%;
 }
-/*End idle_app_trial section css =====================*/
 
-/*12. Start idle_news_feed section =====================*/
+/*12. Start idle_news_feed section */
 .idle_news_feed{
 	background: #fff7ee;
 }
@@ -5173,9 +5169,8 @@ section{
 	text-transform: uppercase;
 	margin-bottom: 15px;
 }
-/*End idle_news_feed section =====================*/
 
-/*13. Start idle_widget section =====================*/
+/*13. Start idle_widget section */
 .idle_widget{
 	background: #170e2a;
 }
@@ -5229,19 +5224,18 @@ section{
 	font-size: 14px;
 	text-transform: capitalize;
 }
-/* End Idle-widget section =====================*/
 
-/* 14. Start idle_footer =====================*/
+/* 14. Start idle_footer */
 .idle_footer{
 	background: #100920;
 	padding: 30px 0;
 }
 .idle_footer_text p{
 	color: #fff;
+    font-family: 'Gilroy-ExtraBold';
 }
-/*End idle_footer =====================*/
 
-/*15. Satrt Blog.html css =====================*/
+/*15. Satrt Blog.html css */
 .idle_sb_bg{
 	background: url(../assets/images/home_bg1.jpg) no-repeat;
 	background-size: cover;
@@ -5520,9 +5514,8 @@ section{
 	font-weight: 500;
 	background: #ff9d60;
 }
-/*End blog.html css =====================*/
 
-/*16. Start Idle Single_blog.html css =====================*/
+/*16. Start Idle Single_blog.html css */
 .admin_area_link {
 	margin-bottom: 6px;
 }
@@ -5801,7 +5794,6 @@ input::placeholder{
 .idle_post_button {
     margin-top: 10px;
 }
-/*End Idle Single_blog.html css =====================*/
 
 /*17. Start index.html css */
 .demo_bg{
@@ -5847,9 +5839,8 @@ input::placeholder{
 	width: 50px;
 	margin-bottom: 20px;
 }
-/*End index.html css =====================*/
 
-/*18. Start index_4.html css =====================*/
+/*18. Start index_4.html css */
 .idle_title_2{
 	position: relative;
 	margin-bottom: 80px;
@@ -6405,9 +6396,8 @@ input::placeholder{
 .idle_widget_2 .widget_area .post_img img{
 	width: 100%;
 }
-/*End index_4.html css =====================*/
 
-/*=============== 19. Start comesoon_area section css =====================*/
+/* 19. Start comesoon_area section css */
 .comesoon_area{
 	padding: 166px 0 156px;
 }
@@ -6469,7 +6459,7 @@ input::placeholder{
 	background: -webkit-linear-gradient( 147deg, rgb(127,68,250) 0%, rgb(172,114,254) 100%);
 	background: -ms-linear-gradient( 147deg, rgb(127,68,250) 0%, rgb(172,114,254) 100%);
 }
-/*=============== End comesoon_area css =====================*/
+
 @media only screen and (max-width: 1366px){
 
 }
