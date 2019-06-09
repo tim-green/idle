@@ -1,8 +1,8 @@
 (function($) {
   'use strict';  
-    /*---------------------------------
+    /*
         Preloader JS
-    -----------------------------------*/ 
+    */ 
     var prealoaderOption = $(window);
     prealoaderOption.on("load", function () {
         var preloader = jQuery('.lds-ellipsis');
@@ -10,12 +10,12 @@
         preloader.fadeOut();
         preloaderArea.delay(350).fadeOut('slow');
     });
-    /*---------------------------------
+    /*
         Preloader JS
-    -----------------------------------*/
-    /*---------------------------------  
+    */
+    /*  
         Meanmenu JS
-    -----------------------------------*/ 
+    */ 
     $('.nav_menu nav').meanmenu({
       meanMenuContainer: '.mobile_menu',
       meanScreenWidth: "991"
@@ -24,12 +24,12 @@
         e.preventDefault();
         $(".idle_sidenav_right").toggleClass("active");
     });
-    /*---------------------------------  
+    /*  
         Meanmenu JS
-    -----------------------------------*/ 
-    /*---------------------------------  
+    */ 
+    /*  
         sticky header JS
-    -----------------------------------*/
+    */
     $(window).on('scroll',function() {    
         var scroll = $(window).scrollTop();
          if (scroll < 100) {
@@ -38,12 +38,12 @@
           $("#header_sticky").addClass("sticky");
          }
     }); 
-    /*---------------------------------  
+    /*  
         sticky header JS
-    -----------------------------------*/
-    /*---------------------------------
+    */
+    /*
         page_scroll top JS
-    --------------------------------*/
+    */
     $("a.page_scroll").on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
@@ -57,12 +57,12 @@
             });
         } // End if
     });
-    /*---------------------------------/
+    /*/
             page scroll JS
-    ---------------------------------*/
-    /*---------------------- 
+    */
+    /* 
         slick slider js
-    ------------------------*/
+    */
     $('.testimonial_slide').slick({
       dots: false,
       infinite: true,
@@ -209,12 +209,12 @@
         }
       ]
     });
-    /*---------------------- 
+    /* 
         slick slider js
-    ------------------------*/  
-    /*---------------------- 
+    */  
+    /* 
         magnific-Popup js
-    ----------------------*/
+    */
     $('.b_play').magnificPopup({
         type: 'iframe',
         removalDelay: 300,
@@ -230,15 +230,15 @@
         removalDelay: 300,
         mainClass: 'mfp-fade'
     });
-    /*---------------------- 
+    /* 
         magnific-Popup js
-    ----------------------*/
-    /*---------------------- 
+    */
+    /* 
             wow js
-    ----------------------*/
+    */
     new WOW().init();
-    /*---------------------- 
+    /* 
             wow js
-    ----------------------*/
+    */
 
 })(window.jQuery);   
