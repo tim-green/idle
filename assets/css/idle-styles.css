@@ -1,13 +1,13 @@
-/*-------------------------------------
-Template Name: Bilo - Sass App Landing HTML Template 
-Template URI: 
-Description: Bilo - Sass App Landing HTML Template.
-Author: webtend
-Author URI: https://themeforest.net/user/webtend
-Version: 1.0
----------------------------------------
-CSS INDEX
----------------------------------------
+/*  
+Idle Landing Page
+Author: Tim Green
+Description: App Landing Page HTML Template
+Version: 1.0.0
+*/
+
+
+/*
+
 1.Default css
 2.preloader css
 3.header-area css
@@ -27,12 +27,47 @@ CSS INDEX
 17.Index.html css
 18.index-4.html css
 19.comeingsoon.html css
----------------------------------------*/
+*/
 
-/*===================== 1. Satrt Default css  =====================*/
+/*1. Satrt Default css*/
 @import url('https://fonts.googleapis.com/css?family=Nunito:700|Rubik:400,500,700,700i');
 
-a,
+@font-face {
+    font-family: 'gilroy-light';
+    src: url('../assets/fonts/gilroy/gilroy-light-webfont.woff2') format('woff2'),
+         url('../assets/fonts/gilroy/gilroy-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gilroy-regular';
+    src: url('../assets/fonts/gilroy/gilroy-regular-webfont.ttf') format('ttf'),
+         url('../assets/fonts/gilroy/gilroy-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/gilroy/gilroy-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gilroy-bold';
+    src: url('../assets/fonts/gilroy/gilroy-bold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/gilroy/gilroy-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gilroy-extrabold';
+    src: url('../assets/fonts/gilroy/gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('../assets/fonts/gilroy/gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}a,
 a:hover,
 a:focus{
 	color: #170e2a;
@@ -40,7 +75,7 @@ a:focus{
 	outline: none;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Gilroy-ExtraBold.ttf';
+	font-family: 'Gilroy-ExtraBold';
 	margin: 0;
 	color: #170e2a;
 }
@@ -86,22 +121,7 @@ body{
 section{
 	overflow: hidden;
 }
-@font-face{
-	src: url(../fonts/Gilroy-ExtraBold.ttf);
-	font-family: 'Gilroy-ExtraBold.ttf';
-}
-@font-face{
-	font-family: 'Gilroy-Light.ttf';
-	src: url(../fonts/Gilroy-Light.ttf);
-}
-@font-face{
-	font-family: 'Gilroy-Bold.ttf';
-	src: url(../fonts/Gilroy-Bold.ttf);
-}
-@font-face{
-	font-family: 'Gilroy-Regular.ttf';
-	src: url(../fonts/Gilroy-Regular.ttf);
-}
+
 .section_padding{
 	padding: 120px 0;
 }
@@ -110,7 +130,7 @@ section{
 }
 .idle_btn{
 	display: inline-block;
-	font-family: 'Gilroy-Bold.ttf';
+	font-family: 'Gilroy-Bold';
 	font-weight: bold;
 	padding: 25px 56px;
 	font-size: 14px;
@@ -148,7 +168,7 @@ section{
 }
 .idle_btn{
 	display: inline-block;
-	font-family: 'Gilroy-Bold.ttf';
+	font-family: 'Gilroy-Bold';
 	font-size: 14px;
 	color: #fff;
 }
@@ -231,7 +251,7 @@ section{
 .header_area.sticky {
 	position: fixed;
 	top: 0;
-	background: #4919ae;
+	background: #3c2768;
 	padding: 20px 20px;
 }
 .header_area.sticky .idle_logo img {
@@ -346,7 +366,7 @@ section{
 	position: relative;
 }
 .download_box .menu_btn{
-	font-family: 'Gilroy-ExtraBold.ttf';
+	font-family: 'Gilroy-ExtraBold';
 	display: inline-block;
 	padding: 20px 50px;
 	font-size: 14px;
@@ -364,20 +384,20 @@ section{
 	background: #fff;
 	color: #1b1c2f;
 }
-/*===================== End header_area css =====================*/
+/*End header_area css =====================*/
 
-/*===================== 4. Start idle_bg_1 section css =====================*/
+/*4. Start idle_bg_1 section css =====================*/
 .header_bg{
 	position: relative;
 	padding-top: 205px;
 	padding-bottom: 70px;
 }
 .idle_bg_1{
-	background: url(../../assets/images/home_bg1.jpg) no-repeat;
+	background: url(../assets/images/home_bg1.jpg) no-repeat;
 	background-size: cover;
 }
 .idle_bg_3{
-	background: url(../images/home_bg2.jpg) no-repeat;
+	background: url(../assets/images/home_bg2.jpg) no-repeat;
 	background-size: cover;
 }
 .idle_bg_text h1{
@@ -437,10 +457,10 @@ section{
 .idle_bg_3 .idle_bg_text p{
 	color: #6870a0;
 }
-/*===================== End idle_bg_1 section css =====================*/
+/*End idle_bg_1 section css =====================*/
 
 
-/*===================== 5. Start idle_plan section css =====================*/
+/*5. Start idle_plan section css =====================*/
 .idle_plan_span{
 	margin-bottom: 22px;
 }
@@ -486,9 +506,9 @@ section{
 	color: #ff9d60;
 	text-decoration: underline;
 }
-/*===================== End idle_plan section css =====================*/
+/*End idle_plan section css =====================*/
 
-/*===================== 6. Start idle_intrested_app section css =====================*/
+/*6. Start idle_intrested_app section css =====================*/
 .intrest_app_area h2{
 	font-size: 49px;
 	margin-bottom: 43px;
@@ -499,7 +519,7 @@ section{
 	border-bottom: 2px solid rgb(255, 217, 194);
 }
 .intrest_app_download .intrest_app_btn{
-	font-family: 'Gilroy-Bold.ttf';
+	font-family: 'Gilroy-Bold';
     display: inline-block;
     padding: 27px 50px;
     border-radius: 50px;
@@ -566,9 +586,9 @@ section{
 	font-size: 14px;
 	color: #ff9d60;
 }
-/*===================== End idle_intrested_app section css =====================*/
+/*End idle_intrested_app section css =====================*/
 
-/*===================== 7. Start idle_featues_slide section css =====================*/
+/*7. Start idle_featues_slide section css =====================*/
 .feature_area{
 	padding: 80px 50px;
 	text-align: center;
@@ -600,15 +620,15 @@ section{
 	font-size: 23px;
 	margin-bottom: 35px;
 }
-/*===================== End idle_featues_slide section css =====================*/
+/*End idle_featues_slide section css =====================*/
 
-/*===================== 8. Satrt idle_video section css =====================*/
+/*8. Satrt idle_video section css =====================*/
 .idle_video{
 	position: relative;
-	background: url(../images/video_bg.jpg) no-repeat;
+	background: url(../assets/images/video_bg.jpg) no-repeat;
 }
 .play_area{
-	background: url(../images/play_bg.jpg) no-repeat center;
+	background: url(../assets/images/play_bg.jpg) no-repeat center;
 	background-size: cover;
 	height: 600px;
 	text-align: center;
@@ -626,7 +646,7 @@ section{
     margin: 0 auto;
 }
 .play_icon a.play_btn{
-	font-family: 'Gilroy-Bold.ttf';
+	font-family: 'Gilroy-Bold';
 	display: inline-block;
 	width: 120px;
   	height: 120px;
@@ -636,9 +656,9 @@ section{
 	color: #170e2a;
 	font-size: 14px;
 }
-/*===================== End idle_video section css =====================*/
+/*End idle_video section css =====================*/
 
-/*===================== 9. Start idle_pricing section css =====================*/
+/*9. Start idle_pricing section css =====================*/
 .idle_pricing{
 	position: relative;
 }
@@ -666,7 +686,7 @@ section{
 	z-index: 1;
 }
 .pricing_tab ul li a.pricing_tab_btn{
-	font-family: 'Gilroy-Bold.ttf';
+	font-family: 'Gilroy-Bold';
     display: inline-block;
     padding: 27px 59px;
     font-size: 14px;
@@ -713,7 +733,7 @@ section{
 }
 .price_button .price_btn{
 	display: inline-block;
-	font-family: 'Gilroy-Bold.ttf';
+	font-family: 'Gilroy-Bold';
 	padding: 25px 43px;
 	border: 2px solid rgb(228, 231, 255);
 	background: transparent;
@@ -735,9 +755,9 @@ section{
     left: 0;
     z-index: -1;
 }
-/*===================== End idle_pricing section css =====================*/
+/*End idle_pricing section css =====================*/
 
-/*===================== 10. Start idle_works section css =====================*/
+/*10. Start idle_works section css =====================*/
 .work_box_area{
 	position: relative;
 }
@@ -778,11 +798,11 @@ section{
 .work_info h4{
 	margin-bottom: 28px;
 }
-/*===================== End idle_works section css =====================*/
+/*End idle_works section css =====================*/
 
-/*===================== 11. Start idle_app_trial section css =====================*/
+/*11. Start idle_app_trial section css =====================*/
 .idle_app_trial{
-	background: url(../images/app_bg.jpg) no-repeat center;
+	background: url(../assets/images/app_bg.jpg) no-repeat center;
 	background-size: cover;
 	position: relative;
 }
@@ -841,7 +861,7 @@ section{
 }
 .testimonial_slide .slick-prev,
 .testimonial_slide .slick-next{
-	font-family: 'Gilroy-Bold.ttf';
+	font-family: 'Gilroy-Bold';
 	font-size: 14px;
 	display: inline-block;
 	width: 60px;
@@ -873,9 +893,9 @@ section{
   	left: -24%;
   	top: 90%;
 }
-/*===================== End idle_app_trial section css =====================*/
+/*End idle_app_trial section css =====================*/
 
-/*===================== 12. Start idle_news_feed section =====================*/
+/*12. Start idle_news_feed section =====================*/
 .idle_news_feed{
 	background: #fff7ee;
 }
@@ -896,9 +916,9 @@ section{
 	text-transform: uppercase;
 	margin-bottom: 15px;
 }
-/*===================== End idle_news_feed section =====================*/
+/*End idle_news_feed section =====================*/
 
-/*===================== 13. Start idle_widget section =====================*/
+/*13. Start idle_widget section =====================*/
 .idle_widget{
 	background: #170e2a;
 }
@@ -942,7 +962,7 @@ section{
 	margin-right: 15px;
 	color: #fff;
 	font-size: 16px;
-	font-family: 'Gilroy-Bold.ttf';
+	font-family: 'Gilroy-Bold';
 }
 .widget-list ul li{
 	line-height: 40px;
@@ -952,9 +972,9 @@ section{
 	font-size: 14px;
 	text-transform: capitalize;
 }
-/* ===================== End bilo-widget section =====================*/
+/* End bilo-widget section =====================*/
 
-/* ===================== 14. Start idle_footer =====================*/
+/* 14. Start idle_footer =====================*/
 .idle_footer{
 	background: #100920;
 	padding: 30px 0;
@@ -962,11 +982,11 @@ section{
 .idle_footer_text p{
 	color: #fff;
 }
-/*===================== End idle_footer =====================*/
+/*End idle_footer =====================*/
 
-/*===================== 15. Satrt Blog.html css =====================*/
+/*15. Satrt Blog.html css =====================*/
 .idle_sb_bg{
-	background: url(../images/home_bg1.jpg) no-repeat;
+	background: url(../assets/images/home_bg1.jpg) no-repeat;
 	background-size: cover;
 	position: relative;
 	padding: 335px 0 220px;
@@ -1051,7 +1071,7 @@ section{
   	box-shadow: 0px 16px 32px 0px rgba(255, 157, 96, 0.3);
 }
 .blog_main_area_bg{
-	background: url(../images/bl-bg.jpg) no-repeat;
+	background: url(../assets/images/bl-bg.jpg) no-repeat;
 	background-size: cover;
 	padding: 45px 50px;
 	border: 1px solid #fff0f0;
@@ -1200,7 +1220,7 @@ section{
 	position: relative;
 }
 .add_widget_img {
-	background: url(../images/over_img.jpg) no-repeat;
+	background: url(../assets/images/over_img.jpg) no-repeat;
 	background-size: cover;
 	padding: 50px 38px 50px 48px;
     position: relative;
@@ -1243,9 +1263,9 @@ section{
 	font-weight: 500;
 	background: #ff9d60;
 }
-/*===================== End blog.html css =====================*/
+/*End blog.html css =====================*/
 
-/*===================== 16. Start Bilo Single_blog.html css =====================*/
+/*16. Start Bilo Single_blog.html css =====================*/
 .admin_area_link {
 	margin-bottom: 6px;
 }
@@ -1524,11 +1544,11 @@ input::placeholder{
 .idle_post_button {
     margin-top: 10px;
 }
-/*===================== End Bilo Single_blog.html css =====================*/
+/*End Bilo Single_blog.html css =====================*/
 
-/*===================== 17. Start index.html css ===================== */
+/*17. Start index.html css */
 .demo_bg{
-	background: url(../images/home_bg1.jpg) no-repeat;
+	background: url(../assets/images/home_bg1.jpg) no-repeat;
 	background-size: cover;
 	padding: 200px 0;
 }
@@ -1570,9 +1590,9 @@ input::placeholder{
 	width: 50px;
 	margin-bottom: 20px;
 }
-/*===================== End index.html css =====================*/
+/*End index.html css =====================*/
 
-/*===================== 18. Start index_4.html css =====================*/
+/*18. Start index_4.html css =====================*/
 .idle_title_2{
 	position: relative;
 	margin-bottom: 80px;
@@ -1584,7 +1604,7 @@ input::placeholder{
 }
 .idle_title_2 span{
 	display: block;
-	font-family: 'Gilroy-Light.ttf';
+	font-family: 'Gilroy-Light';
 	font-size: 50px;
 	line-height: 40px;
 	color: #1b1c2f;
@@ -1596,16 +1616,16 @@ input::placeholder{
 	color: #1b1c2f;
 }
 .idle_bg_4{
-	background: url(../images/soft/bg_4.jpg) no-repeat;
+	background: url(../assets/images/soft/bg_4.jpg) no-repeat;
 	background-size: cover;
 }
 .idle_bg_5{
-	background: url(../images/soft/bg_5.jpg) #f6f6f6 no-repeat;
+	background: url(../assets/images/soft/bg_5.jpg) #f6f6f6 no-repeat;
 	background-size: cover;
 	padding-bottom: 200px;
 }
 .idle_bg_6{
-	background: url(../images/soft/bg_6.jpg) no-repeat;
+	background: url(../assets/images/soft/bg_6.jpg) no-repeat;
 	background-size: cover;
 }
 .idle_bg_4 .bg_4_button .bg_btn{
@@ -1691,7 +1711,7 @@ input::placeholder{
 	margin-bottom: 20px;
 }
 .about_text_area h2 span{
-	font-family: 'Gilroy-Light.ttf';
+	font-family: 'Gilroy-Light';
 	margin-bottom: 20px;
 }
 .about_text_area p{
@@ -1709,7 +1729,7 @@ input::placeholder{
 	position: relative;
 }
 .feature_box_text span{
-	font-family: 'Gilroy-Light.ttf';
+	font-family: 'Gilroy-Light';
 	font-size: 50px;
 	color: #1b1c2f;
 	line-height: 40px;
@@ -1812,13 +1832,13 @@ input::placeholder{
 	background: linear-gradient(130deg, rgb(253,83,132) 0%, rgb(234,123,34) 100%);
 }
 .price_title_2 h2{
-	font-family: 'Gilroy-Bold.ttf';
+	font-family: 'Gilroy-Bold';
 	font-size: 35px;
 	color: #fff;
 	font-weight: bold;
 }
 .price_title_2 h4{
-	font-family: 'Gilroy-Regular.ttf';
+	font-family: 'Gilroy-Regular';
 	font-size: 24px;
 	color: #fff;
 }
@@ -1880,7 +1900,7 @@ input::placeholder{
 	color: #deddde;
 }
 .soft_download{
-	background: url(../images/soft/download_bg.jpg) no-repeat;
+	background: url(../assets/images/soft/download_bg.jpg) no-repeat;
 	background-size: cover;
 }
 .soft_area_text p{
@@ -1972,7 +1992,7 @@ input::placeholder{
 	margin-bottom: 80px;
 }
 .feedback_title span{
-	font-family: 'Gilroy-bold.ttf';
+	font-family: 'Gilroy-bold';
 	font-size: 30px;
 	color: #1b1c2f;
 }
@@ -2035,7 +2055,7 @@ input::placeholder{
 	margin-bottom: -200px;
 }
 .idle_news_bg{
-	background: url(../images/soft/news_bg.jpg) no-repeat;
+	background: url(../assets/images/soft/news_bg.jpg) no-repeat;
 	background-size: cover;
 	padding: 90px 0;
 	box-shadow: 0px 16px 32px 0px rgba(207, 205, 255, 0.5);
@@ -2128,7 +2148,7 @@ input::placeholder{
 .idle_widget_2 .widget_area .post_img img{
 	width: 100%;
 }
-/*===================== End index_4.html css =====================*/
+/*End index_4.html css =====================*/
 
 /*=============== 19. Start comesoon_area section css =====================*/
 .comesoon_area{
