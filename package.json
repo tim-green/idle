@@ -1,0 +1,26 @@
+{
+  "name": "idle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tim-green/idle.git"
+  },
+  "keywords": [
+    "idle",
+    "website"
+  ],
+  "author": "Tim Green",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tim-green/idle/issues"
+  },
+  "homepage": "https://github.com/tim-green/idle#readme",
+  "dependencies": {
+    "grunt": "^1.0.4"
+  }
+}
