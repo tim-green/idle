@@ -394,12 +394,11 @@ section{
 /*4. Start idle_bg_1 section css */
 .header_bg{
 	position: relative;
-	padding-top: 205px;
+	padding-top: 165px;
 	padding-bottom: 70px;
 }
 .idle_bg_1{
-	background: url(../assets/images/home_bg1.jpg) no-repeat;
-	background-size: cover;
+    background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
 }
 .idle_bg_3{
 	background: url(../assets/images/home_bg1.jpg) no-repeat;
