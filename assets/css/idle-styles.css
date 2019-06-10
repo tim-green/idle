@@ -9,9 +9,15 @@ Version: 1.0.0
 /*
 Colours
 Purple: #3c2768;
+Deep Purple: #3B2667;
+Light Purple: #BC78EC;
+Very Deep Purple(Footer): #170e2a;
 Orange: #ff9d60;
 Black: #170e2a;
 White: #fff;
+
+Background Gradient
+background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
 
 1.Default css
 2.preloader css
@@ -35,8 +41,6 @@ White: #fff;
 */
 
 /*1. Satrt Default css*/
-@import url('https://fonts.googleapis.com/css?family=Nunito:700|Rubik:400,500,700,700i');
-
 @font-face {
     font-family: 'gilroy-light';
     src: url('../assets/fonts/gilroy/gilroy-light-webfont.woff2') format('woff2'),
@@ -130,8 +134,10 @@ section{
   opacity: .5;
   transition: .8s;
 }
-
-
+.idle_logo:hover ellipse{
+  fill: #fff;
+  transition: .8s;
+}
 .section_padding{
 	padding: 120px 0;
 }
@@ -154,6 +160,7 @@ section{
 	color: #ff9d60;
 	letter-spacing: 2px;
 	font-weight: 500;
+    text-transform: uppercase;;
 }
 .idle_title_span {
 	margin-bottom: 20px;
@@ -259,8 +266,8 @@ section{
 	background: #3c2768;
 	padding: 20px 20px;
 }
-.header_area.sticky .idle_logo img {
-    width: 80px;
+.header_area.sticky .idle_logo img,.header_area.sticky .idle_logo svg {
+    width: 90px;
 }
 .header_area.sticky .download_box .menu_btn {
     padding: 15px 50px;
@@ -290,7 +297,7 @@ section{
 .main_menu .menu_list li{
 	position: relative;
 	display: inline-block;
-	margin-right: 55px;
+	margin-right: 23px;
 }
 .main_menu .menu_list li a{
 	display: block;
@@ -377,8 +384,13 @@ section{
 	font-size: 14px;
 	color: #fff;
 	/*background: #7732c1;*/
-    background: #ff9d60;
+    border:3px solid #ff9d60;
 	border-radius: 50px;
+}
+
+.download_box .menu_btn:hover{
+    background: #ff9d60;
+    transition: ease-in 2s;
 }
 .header_area_3 .menu_icon_box a{
 	color: #170e2a;
@@ -394,7 +406,7 @@ section{
 /*4. Start idle_bg_1 section css */
 .header_bg{
 	position: relative;
-	padding-top: 165px;
+	padding-top: 235px;
 	padding-bottom: 70px;
 }
 .idle_bg_1{
@@ -633,23 +645,21 @@ section{
 /*8. Satrt idle_video section css */
 .idle_video{
 	position: relative;
-	background: url(../build/assets/images/video_bg.jpg) no-repeat;
 }
 .play_area{
-	background: url(../build/assets/images/play_bg.jpg) no-repeat center;
-	background-size: cover;
 	height: 600px;
 	text-align: center;
 	padding: 225px 0;
 	margin-top: 10px;
+    background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
 }
 .play_icon{
 	text-align: center;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0px 16px 32px 0px rgba(89, 115, 159, 0.2);
+    background: rgba(60,39,104, 0.2);
+    box-shadow: 0px 16px 32px 0px rgba(60,39,104, 0.8);
     line-height: 150px;
     margin: 0 auto;
 }
@@ -663,6 +673,13 @@ section{
 	background: rgb(255, 255, 255);
 	color: #170e2a;
 	font-size: 14px;
+}
+
+.play_icon a.play_btn:hover{
+    background: #3c2768;
+    transition: .8s;
+    color: #fff;
+    transform: rotate(720deg);
 }
 
 /*9. Start idle_pricing section css */
@@ -781,6 +798,8 @@ section{
 }
 .work_icon{
 	margin-bottom: 35px;
+    font-size: 3.5em;
+    color: #ff9d60;
 }
 .work_info a.work_btn{
 	display: inline-block;
@@ -807,8 +826,7 @@ section{
 
 /*11. Start idle_app_trial section css */
 .idle_app_trial{
-	background: url(../assets/images/app_bg.jpg) no-repeat center;
-	background-size: cover;
+	background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
 	position: relative;
 }
 .idle_title_span.app_title_span  span{
@@ -832,6 +850,7 @@ section{
 	padding: 50px;
 	border: 1px solid #ffefe5;
 }
+
 .testimonial_single .testimonial_review p{
 	font-size: 14px;
 	margin-bottom: 20px;
@@ -843,6 +862,19 @@ section{
 	font-size: 14px;
 	color: #ff9d60;
 }
+
+.testimonial_single:hover{
+    background: #3c2768;
+    color: #fff;
+    transition: .8s;
+}
+
+
+.testimonial_single .testimonial_review h5:hover{
+    color: #fff;
+    transition: .8s;
+}
+
 .testimonial_icon{
 	margin-bottom: 45px;
 }
@@ -891,12 +923,12 @@ section{
 .testimonial_slide .slick-prev{
   	position: absolute;
   	left: -35%;
-  	top: 90%;
+  	top: 100%;
 }
 .testimonial_slide .slick-next{
   	position: absolute;
   	left: -24%;
-  	top: 90%;
+  	top: 100%;
 }
 
 /*12. Start idle_news_feed section */
@@ -924,6 +956,9 @@ section{
 /*13. Start idle_widget section */
 .idle_widget{
 	background: #170e2a;
+}
+.idle_widget .widget-title img{
+    width: 25%;
 }
 .widget-title{
 	margin-bottom: 50px;
