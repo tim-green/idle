@@ -538,7 +538,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="idle_title_span app_title_span text-center">
-                            <span>No Contest, no set-up costs, just awesome way to organise your business.</span>
+                            <span>No Contest, no setup costs, just an awesome way to organise your business.</span>
                         </div>
                         <div class="idle_title app_title text-center">
                             <h2>Get This Business App Trial</h2>
