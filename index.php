@@ -408,7 +408,7 @@
                                         <h2>Regular</h2>
                                     </div>
                                     <div class="price_tag">
-                                        <h1>$45<span>/mo</span></h1>
+                                        <h1>$35<span>/mo</span></h1>
                                     </div>
                                     <div class="price_body">
                                         <ul>
@@ -429,7 +429,7 @@
                                         <h2>Advanced</h2>
                                     </div>
                                     <div class="price_tag">
-                                        <h1>$99<span>/mo</span></h1>
+                                        <h1>$89<span>/mo</span></h1>
                                     </div>
                                     <div class="price_body">
                                         <ul>
@@ -453,7 +453,7 @@
                                         <h2>Team</h2>
                                     </div>
                                     <div class="price_tag">
-                                        <h1>$378<span>/mo</span></h1>
+                                        <h1>$368<span>/mo</span></h1>
                                     </div>
                                     <div class="price_body">
                                         <ul>
@@ -617,7 +617,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="blog_sigle_area wow fadeInUp" data-wow-delay=".2s">
                             <div class="blog_img">
-                                <img src="assets/images/b_1.jpg" class="img-fluid" alt="">
+                                <img src="assets/images/blog_1.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="blog_info">
                                 <a href="#" class="b_tag">mobile app</a>
@@ -628,7 +628,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="blog_sigle_area wow fadeInUp" data-wow-delay=".3s">
                             <div class="blog_img">
-                                <img src="assets/images/b_2.jpg" class="img-fluid" alt="">
+                                <img src="assets/images/blog_2.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="blog_info">
                                 <a href="#" class="b_tag">gmail</a>
@@ -639,7 +639,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="blog_sigle_area wow fadeInUp" data-wow-delay=".4s">
                             <div class="blog_img">
-                                <img src="assets/images/b_3.jpg" class="img-fluid" alt="">
+                                <img src="assets/images/blog_3.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="blog_info">
                                 <a href="#" class="b_tag">google</a>
