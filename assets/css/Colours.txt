@@ -1,0 +1,12 @@
+/*
+Colours
+Purple: #3c2768;
+Deep Purple: #3B2667;
+Light Purple: #BC78EC;
+Very Deep Purple(Footer): #170e2a;
+Orange: #ff9d60;
+Black: #170e2a;
+White: #fff;
+
+Background Gradient
+background-image: linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
