@@ -552,7 +552,7 @@
         </section>
         <!-- End idle_app_trial section -->
         <!-- Start Idle testimonial section -->
-        <section class="idle_testimonial section_padding">
+        <section id="testimonials" class="idle_testimonial section_padding">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
