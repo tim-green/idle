@@ -45,7 +45,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-2">
-                        <div class="Idle_logo text-left">
+                        <div class="idle_logo text-left">
                           <?php include('includes/logo.php') ?>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
         </header>
         <!-- End Header area -->
         <!-- Start Header Bg section  -->
-        <section class="single_blog Idle_sb_bg">
+        <section class="single_blog idle_sb_bg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
@@ -246,19 +246,19 @@
                                     <i class="fas fa-pencil-alt"></i>
                                 </div>
                                 <div class="form_list">
-                                    <input type="text" class="Idle_input" placeholder="type your name" id="name" name="name">
+                                    <input type="text" class="idle_input" placeholder="type your name" id="name" name="name">
                                     <i class="fas fa-user"></i>
                                 </div>
                                 <div class="form_list">
-                                    <input type="email" class="Idle_input" placeholder="type your email" id="email" name="email">
+                                    <input type="email" class="idle_input" placeholder="type your email" id="email" name="email">
                                     <i class="fas fa-envelope"></i>
                                 </div>
                                 <div class="form_list">
-                                    <input type="text" class="Idle_input" placeholder="type your website" id="website" name="website">
+                                    <input type="text" class="idle_input" placeholder="type your website" id="website" name="website">
                                     <i class="fas fa-globe"></i>
                                 </div>
-                                <div class="Idle_post_button">
-                                    <button class="Idle_post_btn" type="submit" value="submit">post comment</button>
+                                <div class="idle_post_button">
+                                    <button class="idle_post_btn" type="submit" value="submit">post comment</button>
                                 </div>
                             </form>
                         </div>
@@ -270,7 +270,7 @@
                                     <h3>Search</h3>
                                 </div>
                                 <form>
-                                    <input type="search" class="Idle_input" placeholder="Search your keyword...">
+                                    <input type="search" class="idle_input" placeholder="Search your keyword...">
                                     <button type="submit" class="search_btn" value="submit"><i class="fas fa-search"></i></button>
                                 </form>
                             </div>
@@ -434,8 +434,8 @@
             </div>
         </section>
         <!-- End single_blog_main section -->
-        <!-- Start Idle-widget section -->
-        <section class="Idle_widget section_padding">
+        <!-- Start idle-widget section -->
+        <section class="idle_widget section_padding">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -506,7 +506,7 @@
                 </div>
             </div>
         </section>
-        <!-- End Idle-widget section -->
+        <!-- End idle-widget section -->
         <!-- Start footer -->
         <?php include('includes/footer.php'); ?>
         <!-- End footer -->

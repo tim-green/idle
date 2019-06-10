@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <title>Idle</title>
+  <title>idle</title>
   <meta charset="utf-8">
   <meta name="description" content="">
   <meta name="robots" content="index, follow, all" />
@@ -45,7 +45,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-2">
-                        <div class="Idle_logo text-left">
+                        <div class="idle_logo text-left">
                            <?php include('includes/logo.php') ?>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
         </header>
         <!-- End Header area -->
         <!-- Start Header Bg section  -->
-        <section class="single_blog Idle_sb_bg">
+        <section class="single_blog idle_sb_bg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
@@ -176,7 +176,7 @@
                                     <h3>Search</h3>
                                 </div>
                                 <form>
-                                    <input type="search" class="Idle_input" placeholder="Search your keyword...">
+                                    <input type="search" class="idle_input" placeholder="Search your keyword...">
                                     <button type="submit" class="search_btn" value="submit"><i class="fas fa-search"></i></button>
                                 </form>
                             </div>
@@ -339,7 +339,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="Idle_paginaition mt_50">
+                        <div class="idle_paginaition mt_50">
                             <ul>
                                 <li><a href="#"><i class="fas fa-angle-double-left"></i></a></li>
                                 <li><a href="#">1</a></li>
@@ -355,8 +355,8 @@
             </div>
         </section>
         <!-- End main_blog section -->
-        <!-- Start Idle-widget section -->
-        <section class="Idle_widget section_padding">
+        <!-- Start idle-widget section -->
+        <section class="idle_widget section_padding">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -427,7 +427,7 @@
                 </div>
             </div>
         </section>
-        <!-- End Idle-widget section -->
+        <!-- End idle-widget section -->
         <!-- Start footer -->
         <?php include('includes/footer.php'); ?>
         <!-- End footer -->
