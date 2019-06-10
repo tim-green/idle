@@ -4264,6 +4264,11 @@ Version: 1.0.0
 
 
 /*
+Colours
+Purple: #3c2768;
+Orange: #ff9d60;
+Black: #170e2a;
+White: #fff;
 
 1.Default css
 2.preloader css
@@ -4378,6 +4383,11 @@ body{
 section{
 	overflow: hidden;
 }
+.idle_logo:hover {
+  opacity: .5;
+  transition: .8s;
+}
+
 
 .section_padding{
 	padding: 120px 0;
@@ -4401,7 +4411,6 @@ section{
 	color: #ff9d60;
 	letter-spacing: 2px;
 	font-weight: 500;
-	text-transform: uppercase;
 }
 .idle_title_span {
 	margin-bottom: 20px;
@@ -4650,7 +4659,7 @@ section{
 	background-size: cover;
 }
 .idle_bg_3{
-	background: url(../assets/images/home_bg2.jpg) no-repeat;
+	background: url(../assets/images/home_bg1.jpg) no-repeat;
 	background-size: cover;
 }
 .idle_bg_text h1{
@@ -6473,7 +6482,7 @@ input::placeholder{
 		top: 30px;
 	}
 	.main_menu .menu_list li{
-		margin-right: 40px;
+		margin-right: 23px;
 	}
 	.main_menu .menu_list li a {
 	    font-size: 12px;
@@ -6540,7 +6549,7 @@ input::placeholder{
 		top: 0;
 	}
 	.main_menu .menu_list li{
-		margin-right: 40px;
+		margin-right: 23px;
 	}
 	.main_menu .menu_list li a{
 		font-size: 14px;
