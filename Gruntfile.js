@@ -7,7 +7,7 @@ module.exports = function(grunt){
           dest: 'build/js/scripts.js',  
         },
         css: {
-          src: ['assets/css/bootstrap/bootstrap.min.css', 'assets/css/animate.css', 'assets/css/meanmenu.css','assets/css/slick/slick.css','assets/css/slick/slick-theme.css','assets/css/site.css','assets/css/idle-styles.css','assets/css/responsive.css'],
+          src: ['assets/css/bootstrap/bootstrap.min.css', 'assets/css/animate.css', 'assets/css/meanmenu.css','assets/css/slick/slick.css','assets/css/slick/slick-theme.css','assets/css/site.css','assets/css/magnific-popup.css','assets/css/idle-styles.css','assets/css/responsive.css'],
           dest: 'build/css/styles.css',
         },
       },
