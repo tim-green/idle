@@ -71,7 +71,7 @@
                     <div class="col-lg-7">
                         <div class="breadcrumb_area">
                             <div class="breadcrumb_text text-center">
-                                <h1>News Feeds</h1>
+                                <h1>Blog</h1>
                                 <ul>
                                     <li><a href="#">home</a></li>
                                     <li>|</li>
