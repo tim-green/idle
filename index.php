@@ -179,7 +179,7 @@
                         </div>
                         <div class="intrest_app_download">
                             <a href="#" class="intrest_app_btn app_icon android_icon"><span>Get It On</span> Google Play</a>
-                            <a href="#" class="intrest_app_btn app_icon apple_icon"><span>Get It On</span> Appple Store</a>
+                            <a href="#" class="intrest_app_btn app_icon apple_icon"><span>Get It On</span> Apple Store</a>
                         </div>
                         <div class="intrest_app_review mt_45">
                             <div class="intrest_app_icon">
