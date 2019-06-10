@@ -26,6 +26,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="build/css/styles.css" >
+  <link href="https://fonts.googleapis.com/css?family=Nunito:700|Rubik:400,500,700,700i&display=swap" rel="stylesheet">
 </head>
 
 <!-- BODY -->
@@ -440,7 +441,7 @@
                     <div class="col-lg-4">
                         <div class="widget_area">
                             <div class="widget-title">
-                                <img src="assets/img/logo.png" alt="">
+                                <img src="assets/images/idle-logo.svg" alt="">
                             </div>
                             <div class="widget-about">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
