@@ -26,6 +26,7 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="build/css/styles.css" >
+  <link href="https://fonts.googleapis.com/css?family=Nunito:700|Rubik:400,500,700,700i&display=swap" rel="stylesheet">
 </head>
 
 <!-- BODY -->
@@ -70,7 +71,7 @@
                     <div class="col-lg-8">
                         <div class="bg_area">
                             <div class="idle_bg_text wow fadeInUp" data-wow-delay=".3s">
-                                <h1>Best App For Grow Business.</h1>
+                                <h1>Best App For Your Business.</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                             </div>
                             <div class="idle_bg_btn wow fadeInUp" data-wow-delay=".5s">
@@ -93,15 +94,15 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="idle_span idle_plan_span">
-                            <span>get start from today</span>
+                            <span>get started today</span>
                         </div>
                         <div class="plan_text_area">
-                            <h2>Easily Intrigate <br>Business Plan</h2>
+                            <h2>Easy Business <br>Plan</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
                         </div>
                         <div class="plan_button">
-                            <a href="#" class="plan_btn idle_btn">Downlaod now</a>
+                            <a href="#" class="plan_btn idle_btn">Download now</a>
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -174,7 +175,7 @@
                             <span>interested in the app</span>
                         </div>
                         <div class="intrest_app_area">
-                            <h2>Available For Your Cute Smartphone & Tab.</h2>
+                            <h2>Available on all Smartphones & Tablets.</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                         </div>
                         <div class="intrest_app_download">
@@ -202,7 +203,7 @@
                     <span>core features</span>
                 </div>
                 <div class="idle_title text-center">
-                    <h2>Idle Built With All <br>Cool Featues</h2>
+                    <h2>Idle been built with all <br>cool featues</h2>
                 </div>
             </div>
             <div class="feature_slide">
@@ -282,7 +283,7 @@
         </section>
         <!-- End idle_featues_slide section -->
         <!-- Start idle_video section -->
-        <section class="idle_video section_padding">
+        <section class="idle_video section_padding light_bg">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -298,7 +299,7 @@
                     <div class="col-lg-10">
                         <div class="play_area">
                             <div class="play_icon">
-                                <a href="https://www.youtube.com/watch?v=3AtDnEC4zak" class="play_btn">Play</a>
+                                <a href="https://www.youtube.com/watch?v=7eMC9vdvAxg" class="play_btn">Play <i class="fas fa-play"></i></a>
                             </div>
                         </div>
                     </div>
@@ -494,7 +495,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="work_box text-center wow fadeInUp" data-wow-delay=".3s">
                             <div class="work_icon">
-                                <img src="assets/images/w_1.png" class="img-fluid" alt="">
+                                <i class="fal fa-search"></i>
                             </div>
                             <div class="work_info">
                                 <a href="#" class="work_btn">01</a>
@@ -506,11 +507,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="work_box text-center wow fadeInUp" data-wow-delay=".3s">
                             <div class="work_icon">
-                                <img src="assets/images/w_2.png" class="img-fluid" alt="">
+                                <i class="fal fa-pencil-ruler"></i>
                             </div>
                             <div class="work_info">
                                 <a href="#" class="work_btn">02</a>
-                                <h4>Desiagn</h4>
+                                <h4>Design</h4>
                                 <p>Lorem ipsum dolor sit amet, consecte tur adipi sicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                             </div>
                         </div>
@@ -518,11 +519,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="work_box text-center wow fadeInUp" data-wow-delay=".3s">
                             <div class="work_icon">
-                                <img src="assets/images/w_3.png" class="img-fluid" alt="">
+                                <i class="fal fa-layer-group"></i>
                             </div>
                             <div class="work_info">
                                 <a href="#" class="work_btn">03</a>
-                                <h4>Build Favor</h4>
+                                <h4>Build Favour</h4>
                                 <p>Lorem ipsum dolor sit amet, consecte tur adipi sicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                             </div>
                         </div>
@@ -540,7 +541,7 @@
                             <span>No Contest, no set-up costs, just awesome way to organise your business.</span>
                         </div>
                         <div class="idle_title app_title text-center">
-                            <h2>Get This Business App Trail</h2>
+                            <h2>Get This Business App Trial</h2>
                         </div>
                         <div class="idle_bg_btn text-center">
                             <a href="#" class="bg_btn active-btn">Get Started Now</a>
@@ -572,7 +573,7 @@
                                 </div>
                                 <div class="testimonial_review">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-                                    <h5>Rosalina William <span>- Founder, Google</span></h5>
+                                    <h5>Harold Khan <span>- Founder, Rocks on Lava</span></h5>
                                 </div>
                             </div>
                             <div class="testimonial_single">
@@ -581,7 +582,7 @@
                                 </div>
                                 <div class="testimonial_review">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-                                    <h5>Rosalina William <span>- Founder, Google</span></h5>
+                                    <h5>Irma Rogers <span>- Founder, Good Bones</span></h5>
                                 </div>
                             </div>
                             <div class="testimonial_single">
@@ -590,7 +591,7 @@
                                 </div>
                                 <div class="testimonial_review">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-                                    <h5>Rosalina William <span>- Founder, Google</span></h5>
+                                    <h5>Line Rolland <span>- Founder, Chamber</span></h5>
                                 </div>
                             </div>
                         </div>
@@ -657,7 +658,7 @@
                     <div class="col-lg-4">
                         <div class="widget_area">
                             <div class="widget-title">
-                                <img src="assets/images/logo.png" alt="">
+                                <img src="assets/images/idle-logo.svg" alt="">
                             </div>
                             <div class="widget-about">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
