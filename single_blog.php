@@ -4,7 +4,7 @@
   <title>Idle</title>
   <meta charset="utf-8">
   <meta name="description" content="">
-  <meta name="robots" content="index, follow, all" />
+  <meta name="robots" content="noindex, nofollow, all" />
   <meta name="author" content="Tim Green">
   <meta name="publisher" content="Tim Green">
   <meta name="google" content="notranslate" />
