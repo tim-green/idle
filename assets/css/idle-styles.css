@@ -126,6 +126,11 @@ body{
 section{
 	overflow: hidden;
 }
+.idle_logo:hover {
+  opacity: .5;
+  transition: .8s;
+}
+
 
 .section_padding{
 	padding: 120px 0;
