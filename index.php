@@ -523,7 +523,7 @@
                             </div>
                             <div class="work_info">
                                 <a href="#" class="work_btn">03</a>
-                                <h4>Build Favour</h4>
+                                <h4>Build</h4>
                                 <p>Lorem ipsum dolor sit amet, consecte tur adipi sicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                             </div>
                         </div>
@@ -667,7 +667,7 @@
                                 <ul>
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                     <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
