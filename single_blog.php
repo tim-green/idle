@@ -194,7 +194,7 @@
                                                 <img src="assets/img/admin.png" class="img-fluid" alt="">
                                             </div>
                                             <div class="admin_bio">
-                                                <h4>Rosalina William</h4>
+                                                <h4>Demetri Caron</h4>
                                                 <ul class="social_link_2">
                                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -219,7 +219,7 @@
                                         <img src="assets/img/comment_1.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="comment_text">
-                                        <h5>Rosalina Kelian <i class="fas fa-bookmark"></i> <span><a href="#"><i class="fas fa-reply"></i>replay</a></span></h5>
+                                        <h5>Becky George <i class="fas fa-bookmark"></i> <span><a href="#"><i class="fas fa-reply"></i>replay</a></span></h5>
                                         <h6>19th May 2018</h6>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     </div>
@@ -229,7 +229,7 @@
                                         <img src="assets/img/comment_2.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="comment_text">
-                                        <h5>Arista Williamson<span><a href="#"><i class="fas fa-reply"></i>replay</a></span></h5>
+                                        <h5>Ander Durham<span><a href="#"><i class="fas fa-reply"></i>replay</a></span></h5>
                                         <h6>19th May 2018</h6>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     </div>
