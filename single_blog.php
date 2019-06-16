@@ -165,10 +165,10 @@
                                     <div class="col-lg-6">
                                         <div class="blog_area">
                                             <div class="blog_img">
-                                                <img src="assets/img/rp_1.jpg" class="img-fluid" alt="">
+                                                <img src="assets/images/related_post_1.jpg" class="img-fluid" alt="">
                                             </div>
                                             <div class="blog_details">
-                                                <h4>A series of iOS 7 inspire vector icons.</h4>
+                                                <h4>This is an Random post header with..</h4>
                                                 <p>Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore.</p>
                                             </div>
                                         </div>
@@ -176,10 +176,10 @@
                                     <div class="col-lg-6">
                                         <div class="blog_area">
                                             <div class="blog_img">
-                                                <img src="assets/img/rp_2.jpg" class="img-fluid" alt="">
+                                                <img src="assets/images/related_post_2.jpg" class="img-fluid" alt="">
                                             </div>
                                             <div class="blog_details">
-                                                <h4>A series of iOS 7 inspire vector icons.</h4>
+                                                <h4>Random is a Random post header</h4>
                                                 <p>Lorem ipsum dolor sit amet, consectet ur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore.</p>
                                             </div>
                                         </div>
