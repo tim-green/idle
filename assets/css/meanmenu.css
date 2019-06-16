@@ -167,3 +167,15 @@ a.meanmenu-reveal {
 .mean-remove {
 	display: none !important;
 }
+
+
+.mean-container .mean-bar::after {
+	color: #ffffff;
+	content: "Idle.";
+	font-size: 30px;
+	left: 5%;
+	position: absolute;
+	top: 12px;
+	font-family: 'gilroy-bold';
+	text-transform: capitalize;
+}
