@@ -242,10 +242,6 @@
                             </div>
                             <form class="post_form">
                                 <div class="form_list">
-                                    <textarea name="message" id="message" placeholder="Type your comments...."></textarea>
-                                    <i class="fas fa-pencil-alt"></i>
-                                </div>
-                                <div class="form_list">
                                     <input type="text" class="idle_input" placeholder="type your name" id="name" name="name">
                                     <i class="fas fa-user"></i>
                                 </div>
@@ -257,8 +253,12 @@
                                     <input type="text" class="idle_input" placeholder="type your website" id="website" name="website">
                                     <i class="fas fa-globe"></i>
                                 </div>
+                                <div class="form_list">
+                                    <textarea name="message" id="message" placeholder="Type your comments...."></textarea>
+                                    <i class="fas fa-pencil-alt"></i>
+                                </div>                                
                                 <div class="idle_post_button">
-                                    <button class="idle_post_btn" type="submit" value="submit">post comment</button>
+                                    <button class="idle_post_btn" type="submit" value="submit">post this comment</button>
                                 </div>
                             </form>
                         </div>
