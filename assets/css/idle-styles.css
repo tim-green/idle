@@ -1115,7 +1115,24 @@ section{
 .blog_icon{
 	float: left;
 	margin-top: 10px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #1f1436;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    transition: all .5s;
 }
+
+.blog_icon:hover {
+    background: #ff9d60;
+    box-shadow: 2.778px 15.757px 32px 0px rgba(255, 157, 96, 0.3);
+}
+
 .blog_text{
 	margin-left: 80px;
 }
