@@ -24,7 +24,6 @@ module.exports = function(grunt){
     copy: {
     main: {
       files: [
-
         // includes files within path and its sub-directories
         {expand: true, src: ['assets/images/**','assets/fonts/**'], dest: 'build/'},  
       ],
@@ -32,7 +31,6 @@ module.exports = function(grunt){
   },
 //above this    
     });
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-copy');
