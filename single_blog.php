@@ -91,7 +91,7 @@
                         <div class="single_blog_main_content">
                             <div class="admin_area_link">
                                 <ul>
-                                    <li><i class="far fa-user"></i>by <a href="#">Hubla Dobby</a></li>
+                                    <li><i class="far fa-user"></i>by <a href="#">Demetri Caron</a></li>
                                     <li><i class="far fa-clock"></i>19 hours ago</li>
                                 </ul>
                             </div>
