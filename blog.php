@@ -91,12 +91,12 @@
                         <div class="blog_main_list">
                             <div class="blog_main_area mb_50">
                                 <div class="blog_main_img">
-                                    <img src="assets/img/bl_1.jpg" class="img-fluid" alt="">
+                                    <img src="assets/images/blog_1_lg.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="bl_main_info blog_details">
                                     <div class="admin_area_link">
                                         <ul>
-                                            <li><i class="far fa-user"></i>by <a href="#">Hubla Dobby</a></li>
+                                            <li><i class="far fa-user"></i>by <a href="#">Oscar Khan</a></li>
                                             <li><i class="far fa-clock"></i>19 hours ago</li>
                                         </ul>
                                     </div>
@@ -107,7 +107,7 @@
                             </div>
                             <div class="blog_main_area mb_50">
                                 <div class="blog_main_img">
-                                    <img src="assets/img/bl_2.jpg" class="img-fluid" alt="">
+                                    <img src="assets/images/blog_2_lg.jpg" class="img-fluid" alt="">
                                     <div class="blog_play">
                                         <a href="https://www.youtube.com/watch?v=3AtDnEC4zak" class="b_play"><i class="fas fa-play"></i></a>
                                     </div>
@@ -115,7 +115,7 @@
                                 <div class="bl_main_info blog_details">
                                     <div class="admin_area_link">
                                         <ul>
-                                            <li><i class="far fa-user"></i>by <a href="#">Hubla Dobby</a></li>
+                                            <li><i class="far fa-user"></i>by <a href="#">Phoenix Walker</a></li>
                                             <li><i class="far fa-clock"></i>19 hours ago</li>
                                         </ul>
                                     </div>
@@ -126,12 +126,12 @@
                             </div>
                             <div class="blog_main_area mb_50">
                                 <div class="blog_main_img">
-                                    <img src="assets/img/bl_3.jpg" class="img-fluid" alt="">
+                                   <img src="assets/images/blog_3_lg.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="bl_main_info blog_details">
                                     <div class="admin_area_link">
                                         <ul>
-                                            <li><i class="far fa-user"></i>by <a href="#">Hubla Dobby</a></li>
+                                            <li><i class="far fa-user"></i>by <a href="#">Oscar Khan</a></li>
                                             <li><i class="far fa-clock"></i>19 hours ago</li>
                                         </ul>
                                     </div>
@@ -144,7 +144,7 @@
                                 <div class="bl_main_info blog_details">
                                     <div class="admin_area_link">
                                         <ul>
-                                            <li><i class="far fa-user"></i>by <a href="#">Hubla Dobby</a></li>
+                                            <li><i class="far fa-user"></i>by <a href="#">Oscar Khan</a></li>
                                             <li><i class="far fa-clock"></i>19 hours ago</li>
                                         </ul>
                                     </div>
@@ -156,12 +156,12 @@
                             <div class="blog_main_area_bg">
                                 <div class="admin_area_link">
                                     <ul>
-                                        <li><i class="far fa-user"></i>by <a href="#">Hubla Dobby</a></li>
+                                        <li><i class="far fa-user"></i>by <a href="#">Phoenix Walker</a></li>
                                         <li><i class="far fa-clock"></i>19 hours ago</li>
                                     </ul>
                                 </div>
                                 <div class="blog_icon">
-                                    <img src="assets/img/b_icon.png" class="img-fluid" alt="">
+                                   <i class="fal fa-acorn"></i>
                                 </div>
                                 <div class="blog_text">
                                     <h2><a href="#">Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor.</a></h2>
@@ -187,47 +187,47 @@
                                 <div class="row">
                                     <div class="col-lg-4 col-md-4 col-sm-4 ins_pa">
                                         <div class="insta_img">
-                                            <img src="assets/img/i_1.jpg" class="img-fluid" alt="">
+                                            <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 ins_pa">
                                         <div class="insta_img">
-                                            <img src="assets/img/i_2.jpg" class="img-fluid" alt="">
+                                            <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 ins_pa">
                                         <div class="insta_img">
-                                            <img src="assets/img/i_3.jpg" class="img-fluid" alt="">
+                                            <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 ins_pa">
                                         <div class="insta_img">
-                                            <img src="assets/img/i_4.jpg" class="img-fluid" alt="">
+                                            <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 ins_pa">
                                         <div class="insta_img">
-                                            <img src="assets/img/i_5.jpg" class="img-fluid" alt="">
+                                            <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 ins_pa">
                                         <div class="insta_img">
-                                            <img src="assets/img/i_6.jpg" class="img-fluid" alt="">
+                                            <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 ins_pa">
                                         <div class="insta_img">
-                                            <img src="assets/img/i_7.jpg" class="img-fluid" alt="">
+                                            <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 ins_pa">
                                         <div class="insta_img">
-                                            <img src="assets/img/i_8.jpg" class="img-fluid" alt="">
+                                            <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4 col-sm-4 ins_pa">
                                         <div class="insta_img">
-                                            <img src="assets/img/i_9.jpg" class="img-fluid" alt="">
+                                            <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -262,7 +262,7 @@
                                 </div>
                                 <div class="feeds_single">
                                     <div class="feeds_img">
-                                        <img src="assets/img/fe_1.jpg" class="img-fluid" alt="">
+                                        <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                     </div>
                                     <div class="feeds_info">
                                         <h6><a href="#">Alonso Kelina Falao Asiano Pero</a></h6>
@@ -271,7 +271,7 @@
                                 </div>
                                 <div class="feeds_single">
                                     <div class="feeds_img">
-                                        <img src="assets/img/fe_2.jpg" class="img-fluid" alt="">
+                                        <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                     </div>
                                     <div class="feeds_info">
                                         <h6><a href="#">It is a long established fact that a reader</a></h6>
@@ -280,7 +280,7 @@
                                 </div>
                                 <div class="feeds_single">
                                     <div class="feeds_img">
-                                        <img src="assets/img/fe_3.jpg" class="img-fluid" alt="">
+                                        <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                     </div>
                                     <div class="feeds_info">
                                         <h6><a href="#">Many desktop publish packages and web</a></h6>
@@ -289,7 +289,7 @@
                                 </div>
                                 <div class="feeds_single">
                                     <div class="feeds_img">
-                                        <img src="assets/img/fe_4.jpg" class="img-fluid" alt="">
+                                        <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                     </div>
                                     <div class="feeds_info">
                                         <h6><a href="#">Various versions have evolved over the years</a></h6>
@@ -298,7 +298,7 @@
                                 </div>
                                 <div class="feeds_single">
                                     <div class="feeds_img">
-                                        <img src="assets/img/fe_5.jpg" class="img-fluid" alt="">
+                                        <img src="<?php include('includes/ig-feed-img.php'); ?>" class="img-fluid" alt="">
                                     </div>
                                     <div class="feeds_info">
                                         <h6><a href="#">Photo booth anim 8-bit PBR 3 wolf moon.</a></h6>
@@ -328,8 +328,8 @@
                             <div class="add_widget">
                                 <div class="add_widget_img">
                                     <div class="add_widget_text">
-                                        <span>Add Banner</span>
-                                        <h2>Get 50% off <strong>With Halim</strong></h2>
+                                        <span>Ad Banner</span>
+                                        <h2>Get 50% off <strong>With WithWidth</strong></h2>
                                         <a href="#" class="add_btn">Get Started Now</a>
                                     </div>
                                 </div>
