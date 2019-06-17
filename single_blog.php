@@ -219,7 +219,9 @@
                                         <img src="assets/img/comment_1.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="comment_text">
-                                        <h5>Becky George <i class="fas fa-bookmark"></i> <span><a href="#"><i class="fas fa-reply"></i>replay</a></span></h5>
+                                        <h5>Becky George <i class="fas fa-bookmark"></i> 
+                                            <span><a href="#"><i class="fas fa-reply"></i>replay</a></span>
+                                        </h5>
                                         <h6>19th May 2018</h6>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     </div>
