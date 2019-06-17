@@ -154,20 +154,19 @@
                                     <a href="#" class="blog_btn">Read More</a>
                                 </div>
                             </div>
-                            <div class="blog_main_area_bg">
-                                <div class="admin_area_link">
-                                    <ul>
-                                        <li><i class="far fa-user"></i>by <a href="#">Phoenix Walker</a></li>
-                                        <li><i class="far fa-clock"></i>19 hours ago</li>
-                                    </ul>
+                            <div class="blog_main_area bl_main_area mb_50">
+                                <div class="bl_main_info blog_details">
+                                    <div class="admin_area_link">
+                                        <ul>
+                                            <li><i class="far fa-user"></i>by <a href="#">Phoenix Walker</a></li>
+                                            <li><i class="far fa-clock"></i>19 hours ago</li>
+                                        </ul>
+                                    </div>
+                                    <h2><a href="#">Lorem ipsum dolor sit amet...</a></h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="#" class="blog_btn">Read More</a>
                                 </div>
-                                <div class="blog_icon">
-                                   <i class="fal fa-acorn"></i>
-                                </div>
-                                <div class="blog_text">
-                                    <h2><a href="#">Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor.</a></h2>
-                                </div>
-                            </div>
+                            </div>                            
                         </div>
                     </div>
                     <div class="col-lg-4">
