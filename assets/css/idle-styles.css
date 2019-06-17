@@ -675,13 +675,14 @@ section{
 	font-size: 14px;
 }
 
-.play_icon a.play_btn:hover{
+.play_icon a.play_btn:hover, .blog_play a.b_play:hover{
     background: #3c2768;
     transition: .8s;
     color: #fff;
     transform: rotate(720deg);
 }
 
+.blog_play a.play_btn:hover
 /*9. Start idle_pricing section css */
 .idle_pricing{
 	position: relative;
