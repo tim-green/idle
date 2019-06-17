@@ -1051,6 +1051,7 @@ section{
 .blog_main_img{
 	position: relative;
 }
+
 .bl_main_info.blog_details h2 {
     font-size: 32px;
 }
@@ -1434,7 +1435,7 @@ section{
 .blog_img img {
     width: 100%;
 }
-.blog_img img:hover{
+.blog_img img:hover, .blog_main_img img:hover{
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     transition: .8s;
