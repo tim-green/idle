@@ -299,7 +299,7 @@
                     <div class="col-lg-10">
                         <div class="play_area">
                             <div class="play_icon">
-                                <a href="https://www.youtube.com/watch?v=7eMC9vdvAxg" class="play_btn">Play <i class="fas fa-play"></i></a>
+                                <a href="https://www.youtube.com/watch?v=7eMC9vdvAxg" class="play_btn"><i class="fas fa-play"></i></a>
                             </div>
                         </div>
                     </div>
