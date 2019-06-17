@@ -1054,15 +1054,21 @@ section{
 .bl_main_info.blog_details h2 {
     font-size: 32px;
 }
+
+.bl_main_info.blog_details h2 a:hover{
+    color: #ff9d60;
+    transition: .5s;
+    text-shadow: 2.778px 7.757px 10px rgba(255, 157, 96, 0.3);
+}
+
 .bl_main_info p{
 	padding: 25px 0;
 }
 .bl_main_info .blog_btn{
 	display: inline-block;
-	padding: 25px 47px;
+	padding: 15px 30px;
 	font-size: 14px;
 	background: #e5e6f0;
-	letter-spacing: 1px;
 	border-radius: 50px;
 	font-weight: 500;
 	transition: all .5s;
