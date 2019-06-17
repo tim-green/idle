@@ -109,8 +109,9 @@
                                 <div class="blog_main_img">
                                     <img src="assets/images/blog_2_lg.jpg" class="img-fluid" alt="">
                                     <div class="blog_play">
-                                        <a href="https://www.youtube.com/watch?v=3AtDnEC4zak" class="b_play"><i class="fas fa-play"></i></a>
+                                        <a href="https://www.youtube.com/watch?v=7eMC9vdvAxg" class="b_play">Play <i class="fas fa-play"></i></a>
                                     </div>
+
                                 </div>
                                 <div class="bl_main_info blog_details">
                                     <div class="admin_area_link">
