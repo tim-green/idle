@@ -682,7 +682,9 @@ section{
     transform: rotate(720deg);
 }
 
-.blog_play a.play_btn:hover
+/*.play_icon a.play_btn:hover:after, .blog_play a.b_play:hover:after{
+    content: 'Play'
+}*/
 /*9. Start idle_pricing section css */
 .idle_pricing{
 	position: relative;
