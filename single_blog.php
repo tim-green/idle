@@ -191,7 +191,7 @@
                                     <div class="col-lg-12 justify-content-center">
                                         <div class="about_admin_area text-center">
                                             <div class="admin_img">
-                                                <img src="assets/img/admin.png" class="img-fluid" alt="">
+                                                <img src="assets/images/author_1.jpg" class="img-fluid" alt="">
                                             </div>
                                             <div class="admin_bio">
                                                 <h4>Demetri Caron</h4>
@@ -216,11 +216,11 @@
                             <div class="comment_list_area">
                                 <div class="single_comment">
                                     <div class="comment_img">
-                                        <img src="assets/img/comment_1.png" class="img-fluid" alt="">
+                                        <img src="assets/images/commenter_1.jpg" class="img-fluid" alt="">
                                     </div>
                                     <div class="comment_text">
                                         <h5>Becky George <i class="fas fa-bookmark"></i> 
-                                            <span><a href="#"><i class="fas fa-reply"></i>replay</a></span>
+                                            <span><a href="#"><i class="fas fa-reply"></i>Reply</a></span>
                                         </h5>
                                         <h6>19th May 2018</h6>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -228,10 +228,10 @@
                                 </div>
                                 <div class="single_comment">
                                     <div class="comment_img">
-                                        <img src="assets/img/comment_2.png" class="img-fluid" alt="">
+                                        <img src="assets/images/commenter_1.jpg" class="img-fluid" alt="">
                                     </div>
                                     <div class="comment_text">
-                                        <h5>Ander Durham<span><a href="#"><i class="fas fa-reply"></i>replay</a></span></h5>
+                                        <h5>Ander Durham<span><a href="#"><i class="fas fa-reply"></i>Reply</a></span></h5>
                                         <h6>19th May 2018</h6>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     </div>
