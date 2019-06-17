@@ -1,1 +1,1 @@
-<a href="#"><img src="assets/images/idle-logo.svg" class="img-fluid logo" alt="Idle App Landing Logo"></a>
+<a href="index.php"><img src="assets/images/idle-logo.svg" class="img-fluid logo" alt="Idle App Landing Logo"></a>
