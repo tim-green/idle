@@ -340,7 +340,7 @@ section{
     transition: all .3s;
 }
 .main_menu .menu_list li:hover > ul.sub-menu{
-	top: 120%;
+	top: 150%;
 	visibility: visible;
 	opacity: 1;
 	transition: all .2s;
@@ -1393,7 +1393,7 @@ section{
 	float: left;
 }
 .content_inner_text p{
-	font-size: 14px;
+	/*font-size: 14px;*/
 	margin-bottom: 0;
 }
 .content_share_area{
@@ -1510,8 +1510,8 @@ ul.social_link_2 li a:hover{
 	float: left;
 }
 .comment_list_area .single_comment .comment_img img{
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	border-radius: 50%;
 }
 .comment_list_area .single_comment .comment_text{
