@@ -129,7 +129,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="tags_area text-right">
-                                            <h4>Social Share</h4>
+                                            <h4>Share This Post</h4>
                                             <ul class="social_link_2">
                                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
